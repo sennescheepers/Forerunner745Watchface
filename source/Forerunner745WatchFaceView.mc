@@ -57,11 +57,15 @@ class Forerunner745WatchFaceView extends WatchUi.WatchFace {
         
         // Display big complication
         // 0: Weekly active minutes
+        // 1: Daily steps/goal
+        // 2: Daily burned calories/goal
         var bigComplication = Application.getApp().getProperty("BigComplication");
         if (bigComplication == 0) {
         	IntensityMinutesBar.drawBar(dc);
         } else if (bigComplication == 1) {
         	StepsBar.drawBar(dc);
+        } else if (bigComplication == 2) {
+        	CaloriesBar.drawBar(dc);
         }
         
     }

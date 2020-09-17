@@ -24,5 +24,6 @@
     <string id="ComplicationBattery">Battery</string>
     <string id="ComplicationActiveMinutesBar">Current weeks active minutes bar</string>
     <string id="ComplicationStepsBar">Daily steps goal bar</string>
+    <string id="ComplicationCaloriesBurnedBar">Burned calories goal bar</string>
 
 </strings>

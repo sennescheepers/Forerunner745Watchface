@@ -48,6 +48,7 @@
         <settingConfig type="list">
             <listEntry value="0">@Strings.ComplicationActiveMinutesBar</listEntry>
             <listEntry value="1">@Strings.ComplicationStepsBar</listEntry>
+            <listEntry value="2">@Strings.ComplicationCaloriesBurnedBar</listEntry>
         </settingConfig>
     </setting>
     
