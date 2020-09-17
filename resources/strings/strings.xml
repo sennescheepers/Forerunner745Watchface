@@ -1,9 +1,10 @@
 <strings>
 
-    <string id="AppName">Forerunner745WatchFace</string>
+    <string id="AppName">Forerunner 745 Watchface</string>
 
     <string id="HourColorTitle">Hour digits color</string>
     <string id="MinutesColorTitle">Minutes digits color</string>
+    <string id="SecondsColorTitle">Seconds digits color</string>
     <string id="HourFilledTitle">Use filled font for hour digits</string>
     <string id="MinutesFilledTitle">Use filled font for minutes digits</string>
     <string id="DisplaySecondsTitle">Display seconds</string>
@@ -12,7 +13,13 @@
     <string id="ColorDarkGray">Dark Gray</string>
     <string id="ColorLightGray">Light Gray</string>
     <string id="ColorWhite">White</string>
-    <string id="ColorBlue">Blue</string>
+    <string id="ColorGreen">Green</string>
     <string id="ColorRed">Red</string>
+    
+    <string id="AccentColorTitle">Accent color</string>
+    
+    <string id="UpperRightComplicationTitle">Upper right complication</string>
+    <string id="ComplicationEmpty">Empty</string>
+    <string id="ComplicationBattery">Battery</string>
 
 </strings>

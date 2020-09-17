@@ -10,7 +10,7 @@ using Toybox.ActivityMonitor;
 
 class Forerunner745WatchFaceView extends WatchUi.WatchFace {
 
-	var testFont = null;
+	var bigFont = WatchUi.loadResource(Rez.Fonts.big_filled_font);
 
     function initialize() {
         WatchFace.initialize();
@@ -39,9 +39,24 @@ class Forerunner745WatchFaceView extends WatchUi.WatchFace {
     	
         var dateLabel = View.findDrawableById("dateLabel");
         DateText.drawDate(dc, dateLabel);
-
+        
+        // Display upper right complication
+        // 0: empty
+        // 1: battery
+        /*var upperRightComplication = Application.getApp().getProperty("UpperRightComplication");
+        var upperRightComplicationLabel = View.findDrawableById("upperRightComplication");
+		var bigFontHeight = dc.getFontHeight(bigFont);
+        var locX = dc.getWidth() / 2 + 5;
+        var locY = (dc.getHeight() - bigFontHeight) / 2 - 5;
+        if (upperRightComplication == 1) {
+        	BatteryText.drawBattery(upperRightComplicationLabel, locX, locY);
+        }*/
+        
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
+        
+        // Display activity minutes bar
+        IntensityMinutesBar.drawBar(dc);
     }
 
     // Called when this View is removed from the screen. Save the
@@ -52,10 +67,12 @@ class Forerunner745WatchFaceView extends WatchUi.WatchFace {
 
     // The user has just looked at their watch. Timers and animations may be started here.
     function onExitSleep() {
+    	TimeText.lowPower = false;
     }
 
     // Terminate any active timers and prepare for slow updates.
     function onEnterSleep() {
+    	TimeText.lowPower = true;
     }
 
 }

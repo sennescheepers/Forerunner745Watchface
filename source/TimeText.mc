@@ -9,6 +9,8 @@ using Toybox.Math;
 using Toybox.Application;
 
 module TimeText {
+
+	var lowPower = false;
 	
 	var textWidthHour;
 	var textWidthMinutes;
@@ -26,6 +28,7 @@ module TimeText {
 	
 	var hourColor = Application.getApp().getProperty("HourColor");
 	var minutesColor = Application.getApp().getProperty("MinutesColor");
+	var secondsColor = Application.getApp().getProperty("SecondsColor");
 	var hourFilled = Application.getApp().getProperty("HourFilled");
 	var minutesFilled = Application.getApp().getProperty("MinutesFilled");
 	var displaySeconds = Application.getApp().getProperty("DisplaySeconds");
@@ -51,7 +54,7 @@ module TimeText {
 		var moment = Gregorian.info(time, Time.FORMAT_LONG);
 		var hourString = moment.hour.format("%02d");
 		var minutesString = moment.min.format("%02d");
-		var secondsString = (displaySeconds) ? moment.sec.format("%02d") : "";
+		var secondsString = (displaySeconds && !lowPower) ? moment.sec.format("%02d") : "";
 		
 		// Getting text widths and heights
 		textWidthHour = dc.getTextWidthInPixels(hourString, hourFont);
@@ -85,7 +88,7 @@ module TimeText {
 		// Setting seconds text
 		secondsLabel.setText(secondsString);
 		secondsLabel.setFont(secondsFont);
-		secondsLabel.setColor(minutesColor);
+		secondsLabel.setColor(secondsColor);
 		secondsLabel.setLocation(secondsLocX, secondsLocY);
 		
 	}

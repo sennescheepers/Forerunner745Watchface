@@ -2,8 +2,13 @@
 
     <property id="HourColor" type="number">0xFFFFFF</property>
 	<property id="MinutesColor" type="number">0xFFFFFF</property>
+	<property id="SecondsColor" type="number">0xFFFFFF</property>
 	<property id="HourFilled" type="boolean">true</property>
 	<property id="MinutesFilled" type="boolean">false</property>
 	<property id="DisplaySeconds" type="boolean">true</property>
+	
+	<property id="AccentColor" type="number">0x00FF00</property>
+	
+	<property id="UpperRightComplication" type="number">0</property>
 
 </properties>

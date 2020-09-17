@@ -2,7 +2,7 @@
 
     <setting propertyKey="@Properties.HourColor" title="@Strings.HourColorTitle">
         <settingConfig type="list">
-            <listEntry value="0x0000FF">@Strings.ColorBlue</listEntry>
+            <listEntry value="0x00FF00">@Strings.ColorGreen</listEntry>
             <listEntry value="0xFF0000">@Strings.ColorRed</listEntry>
             <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
         </settingConfig>
@@ -10,7 +10,15 @@
     
     <setting propertyKey="@Properties.MinutesColor" title="@Strings.MinutesColorTitle">
         <settingConfig type="list">
-            <listEntry value="0x0000FF">@Strings.ColorBlue</listEntry>
+            <listEntry value="0x00FF00">@Strings.ColorGreen</listEntry>
+            <listEntry value="0xFF0000">@Strings.ColorRed</listEntry>
+            <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
+        </settingConfig>
+    </setting>
+    
+    <setting propertyKey="@Properties.SecondsColor" title="@Strings.SecondsColorTitle">
+        <settingConfig type="list">
+            <listEntry value="0x00FF00">@Strings.ColorGreen</listEntry>
             <listEntry value="0xFF0000">@Strings.ColorRed</listEntry>
             <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
         </settingConfig>
@@ -27,5 +35,20 @@
     <setting propertyKey="@Properties.DisplaySeconds" title="@Strings.DisplaySecondsTitle">
     	<settingConfig type="boolean"/>
     </setting>
+    
+    <setting propertyKey="@Properties.AccentColor" title="@Strings.AccentColorTitle">
+        <settingConfig type="list">
+            <listEntry value="0x00FF00">@Strings.ColorGreen</listEntry>
+            <listEntry value="0xFF0000">@Strings.ColorRed</listEntry>
+            <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
+        </settingConfig>
+    </setting>
+    
+    <!--  <setting propertyKey="@Properties.UpperRightComplication" title="@Strings.UpperRightComplicationTitle">
+    	<settingConfig type="list">
+    		<listEntry value="0">@Strings.ComplicationEmpty</listEntry>
+    		<listEntry value="1">@Strings.ComplicationBattery</listEntry>
+    	</settingConfig>
+    </setting> -->
 
 </settings>
