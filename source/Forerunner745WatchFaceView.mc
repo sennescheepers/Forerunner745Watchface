@@ -68,6 +68,9 @@ class Forerunner745WatchFaceView extends WatchUi.WatchFace {
         	CaloriesBar.drawBar(dc);
         }
         
+        // Display status icons
+        StatusIcons.drawIcons(dc);
+        
     }
 
     // Called when this View is removed from the screen. Save the

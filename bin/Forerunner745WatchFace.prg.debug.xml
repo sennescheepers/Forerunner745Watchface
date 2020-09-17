@@ -2,432 +2,514 @@
 <debugInfo>
 <manifest filename="C:\Users\11900454\eclipse-workspace\Forerunner745WatchFace\manifest.xml"/>
 <pcToLineNum>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="36" pc="268435456" symbol="drawTime"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="39" pc="268435468" symbol="drawTime"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="40" pc="268435479" symbol="drawTime"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="42" pc="268435498" symbol="drawTime"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="44" pc="268435514" symbol="drawTime"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="45" pc="268435525" symbol="drawTime"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="47" pc="268435544" symbol="drawTime"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="50" pc="268435560" symbol="drawTime"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="53" pc="268435576" symbol="drawTime"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="54" pc="268435593" symbol="drawTime"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="55" pc="268435624" symbol="drawTime"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="56" pc="268435648" symbol="drawTime"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="57" pc="268435672" symbol="drawTime"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="60" pc="268435730" symbol="drawTime"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="61" pc="268435759" symbol="drawTime"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="62" pc="268435788" symbol="drawTime"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="64" pc="268435817" symbol="drawTime"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="65" pc="268435844" symbol="drawTime"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="68" pc="268435871" symbol="drawTime"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="69" pc="268435899" symbol="drawTime"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="70" pc="268435921" symbol="drawTime"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="71" pc="268435955" symbol="drawTime"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="72" pc="268435986" symbol="drawTime"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="73" pc="268436020" symbol="drawTime"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="74" pc="268436066" symbol="drawTime"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="77" pc="268436100" symbol="drawTime"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="78" pc="268436114" symbol="drawTime"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="79" pc="268436134" symbol="drawTime"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="80" pc="268436154" symbol="drawTime"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="83" pc="268436170" symbol="drawTime"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="84" pc="268436184" symbol="drawTime"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="85" pc="268436204" symbol="drawTime"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="86" pc="268436224" symbol="drawTime"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="89" pc="268436240" symbol="drawTime"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="90" pc="268436254" symbol="drawTime"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="91" pc="268436274" symbol="drawTime"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="92" pc="268436294" symbol="drawTime"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="25" pc="268442341" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="26" pc="268442384" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="27" pc="268442427" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="29" pc="268442464" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="30" pc="268442501" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="31" pc="268442538" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="32" pc="268442575" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="33" pc="268442612" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="3" lineNum="34" pc="268442649" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceBackground.mc" id="5" lineNum="7" pc="268436311" symbol="initialize"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceBackground.mc" id="5" lineNum="8" pc="268436315" symbol="initialize"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceBackground.mc" id="5" lineNum="12" pc="268436336" symbol="initialize"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceBackground.mc" id="6" lineNum="15" pc="268436357" symbol="draw"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceBackground.mc" id="6" lineNum="17" pc="268436361" symbol="draw"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceBackground.mc" id="6" lineNum="18" pc="268436397" symbol="draw"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="8" lineNum="18" pc="268436410" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="8" lineNum="21" pc="268436422" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="8" lineNum="22" pc="268436447" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="8" lineNum="23" pc="268436475" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="8" lineNum="26" pc="268436520" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="8" lineNum="27" pc="268436537" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="8" lineNum="28" pc="268436556" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="8" lineNum="29" pc="268436575" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="8" lineNum="30" pc="268436582" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="8" lineNum="33" pc="268436605" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="8" lineNum="34" pc="268436641" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="8" lineNum="42" pc="268436837" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="8" lineNum="43" pc="268436869" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="8" lineNum="51" pc="268437071" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="8" lineNum="52" pc="268437107" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="8" lineNum="57" pc="268437299" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="8" lineNum="58" pc="268437335" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="8" lineNum="65" pc="268437527" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="8" lineNum="66" pc="268437541" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="8" lineNum="67" pc="268437556" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="8" lineNum="68" pc="268437622" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="8" lineNum="69" pc="268437639" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="8" lineNum="70" pc="268437658" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="8" lineNum="71" pc="268437668" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="8" lineNum="72" pc="268437704" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="8" lineNum="15" pc="268442179" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="8" lineNum="16" pc="268442216" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="10" lineNum="18" pc="268437737" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="10" lineNum="21" pc="268437749" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="10" lineNum="22" pc="268437774" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="10" lineNum="23" pc="268437802" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="10" lineNum="26" pc="268437847" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="10" lineNum="27" pc="268437864" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="10" lineNum="28" pc="268437881" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="10" lineNum="29" pc="268437900" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="10" lineNum="30" pc="268437907" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="10" lineNum="31" pc="268437937" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="10" lineNum="32" pc="268437961" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="10" lineNum="35" pc="268437993" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="10" lineNum="36" pc="268438016" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="10" lineNum="37" pc="268438023" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="10" lineNum="40" pc="268438046" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="10" lineNum="41" pc="268438082" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="10" lineNum="49" pc="268438278" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="10" lineNum="50" pc="268438310" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="10" lineNum="58" pc="268438512" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="10" lineNum="59" pc="268438548" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="10" lineNum="64" pc="268438740" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="10" lineNum="65" pc="268438776" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="10" lineNum="72" pc="268438968" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="10" lineNum="73" pc="268438982" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="10" lineNum="74" pc="268438997" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="10" lineNum="75" pc="268439063" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="10" lineNum="76" pc="268439080" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="10" lineNum="77" pc="268439099" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="10" lineNum="78" pc="268439109" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="10" lineNum="79" pc="268439145" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="10" lineNum="15" pc="268442693" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="10" lineNum="16" pc="268442730" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceApp.mc" id="12" lineNum="6" pc="268439178" symbol="initialize"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceApp.mc" id="12" lineNum="7" pc="268439182" symbol="initialize"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceApp.mc" id="13" lineNum="11" pc="268439201" symbol="onStart"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceApp.mc" id="14" lineNum="15" pc="268439206" symbol="onStop"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceApp.mc" id="15" lineNum="19" pc="268439211" symbol="getInitialView"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceApp.mc" id="15" lineNum="20" pc="268439215" symbol="getInitialView"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceApp.mc" id="16" lineNum="24" pc="268439253" symbol="onSettingsChanged"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceApp.mc" id="16" lineNum="25" pc="268439257" symbol="onSettingsChanged"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\BatteryText.mc" id="18" lineNum="13" pc="268439274" symbol="drawBattery"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\BatteryText.mc" id="18" lineNum="16" pc="268439286" symbol="drawBattery"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\BatteryText.mc" id="18" lineNum="17" pc="268439303" symbol="drawBattery"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\BatteryText.mc" id="18" lineNum="18" pc="268439337" symbol="drawBattery"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\BatteryText.mc" id="18" lineNum="21" pc="268439375" symbol="drawBattery"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\BatteryText.mc" id="18" lineNum="22" pc="268439399" symbol="drawBattery"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\BatteryText.mc" id="18" lineNum="23" pc="268439423" symbol="drawBattery"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\BatteryText.mc" id="18" lineNum="24" pc="268439437" symbol="drawBattery"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\DateText.mc" id="20" lineNum="15" pc="268439460" symbol="drawDate"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\DateText.mc" id="20" lineNum="18" pc="268439472" symbol="drawDate"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\DateText.mc" id="20" lineNum="19" pc="268439516" symbol="drawDate"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\DateText.mc" id="20" lineNum="22" pc="268439576" symbol="drawDate"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\DateText.mc" id="20" lineNum="23" pc="268439597" symbol="drawDate"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\DateText.mc" id="20" lineNum="24" pc="268439624" symbol="drawDate"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\DateText.mc" id="20" lineNum="25" pc="268439652" symbol="drawDate"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\DateText.mc" id="20" lineNum="28" pc="268439680" symbol="drawDate"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\DateText.mc" id="20" lineNum="29" pc="268439704" symbol="drawDate"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\DateText.mc" id="20" lineNum="30" pc="268439728" symbol="drawDate"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\DateText.mc" id="20" lineNum="31" pc="268439742" symbol="drawDate"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\DateText.mc" id="20" lineNum="13" pc="268442115" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="22" lineNum="18" pc="268439759" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="22" lineNum="21" pc="268439771" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="22" lineNum="22" pc="268439796" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="22" lineNum="23" pc="268439824" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="22" lineNum="26" pc="268439869" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="22" lineNum="27" pc="268439886" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="22" lineNum="28" pc="268439911" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="22" lineNum="29" pc="268439930" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="22" lineNum="30" pc="268439937" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="22" lineNum="33" pc="268439960" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="22" lineNum="34" pc="268439996" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="22" lineNum="42" pc="268440192" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="22" lineNum="43" pc="268440224" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="22" lineNum="51" pc="268440426" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="22" lineNum="52" pc="268440462" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="22" lineNum="57" pc="268440654" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="22" lineNum="58" pc="268440690" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="22" lineNum="65" pc="268440882" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="22" lineNum="66" pc="268440896" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="22" lineNum="67" pc="268440911" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="22" lineNum="68" pc="268440958" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="22" lineNum="69" pc="268440975" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="22" lineNum="70" pc="268440994" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="22" lineNum="71" pc="268441004" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="22" lineNum="72" pc="268441040" symbol="drawBar"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="22" lineNum="15" pc="268442260" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="22" lineNum="16" pc="268442297" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="24" lineNum="15" pc="268441073" symbol="initialize"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="24" lineNum="16" pc="268441077" symbol="initialize"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="25" lineNum="20" pc="268441096" symbol="onLayout"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="25" lineNum="21" pc="268441100" symbol="onLayout"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="26" lineNum="27" pc="268441138" symbol="onShow"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="27" lineNum="31" pc="268441143" symbol="onUpdate"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="27" lineNum="32" pc="268441147" symbol="onUpdate"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="27" lineNum="33" pc="268441183" symbol="onUpdate"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="27" lineNum="35" pc="268441195" symbol="onUpdate"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="27" lineNum="36" pc="268441219" symbol="onUpdate"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="27" lineNum="37" pc="268441243" symbol="onUpdate"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="27" lineNum="38" pc="268441267" symbol="onUpdate"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="27" lineNum="40" pc="268441293" symbol="onUpdate"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="27" lineNum="41" pc="268441317" symbol="onUpdate"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="27" lineNum="56" pc="268441339" symbol="onUpdate"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="27" lineNum="62" pc="268441359" symbol="onUpdate"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="27" lineNum="63" pc="268441390" symbol="onUpdate"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="27" lineNum="64" pc="268441401" symbol="onUpdate"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="27" lineNum="65" pc="268441424" symbol="onUpdate"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="27" lineNum="66" pc="268441435" symbol="onUpdate"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="27" lineNum="67" pc="268441458" symbol="onUpdate"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="27" lineNum="68" pc="268441469" symbol="onUpdate"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="28" lineNum="76" pc="268441493" symbol="onHide"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="29" lineNum="80" pc="268441498" symbol="onExitSleep"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="29" lineNum="81" pc="268441502" symbol="onExitSleep"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="30" lineNum="85" pc="268441519" symbol="onEnterSleep"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="30" lineNum="86" pc="268441523" symbol="onEnterSleep"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="30" lineNum="13" pc="268442041" symbol="&lt;init&gt;"/>
-<entry filename="Rez" id="36" lineNum="18" pc="268441540" symbol="WatchFace"/>
-<entry filename="Rez" id="36" lineNum="21" pc="268441552" symbol="WatchFace"/>
-<entry filename="Rez" id="36" lineNum="22" pc="268441576" symbol="WatchFace"/>
-<entry filename="Rez" id="36" lineNum="23" pc="268441643" symbol="WatchFace"/>
-<entry filename="Rez" id="36" lineNum="24" pc="268441710" symbol="WatchFace"/>
-<entry filename="Rez" id="36" lineNum="25" pc="268441777" symbol="WatchFace"/>
-<entry filename="Rez" id="36" lineNum="26" pc="268441844" symbol="WatchFace"/>
-<entry filename="Rez" id="36" lineNum="28" pc="268441911" symbol="WatchFace"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="3" lineNum="26" pc="268435456" symbol="drawIcons"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="3" lineNum="28" pc="268435468" symbol="drawIcons"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="3" lineNum="30" pc="268435475" symbol="drawIcons"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="3" lineNum="31" pc="268435486" symbol="drawIcons"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="3" lineNum="32" pc="268435505" symbol="drawIcons"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="3" lineNum="34" pc="268435518" symbol="drawIcons"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="3" lineNum="35" pc="268435529" symbol="drawIcons"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="3" lineNum="36" pc="268435548" symbol="drawIcons"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="3" lineNum="38" pc="268435561" symbol="drawIcons"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="3" lineNum="39" pc="268435572" symbol="drawIcons"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="3" lineNum="40" pc="268435591" symbol="drawIcons"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="3" lineNum="42" pc="268435604" symbol="drawIcons"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="3" lineNum="43" pc="268435615" symbol="drawIcons"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="3" lineNum="44" pc="268435634" symbol="drawIcons"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="3" lineNum="47" pc="268435647" symbol="drawIcons"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="3" lineNum="48" pc="268435658" symbol="drawIcons"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="3" lineNum="49" pc="268435727" symbol="drawIcons"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="3" lineNum="51" pc="268435738" symbol="drawIcons"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="3" lineNum="52" pc="268435763" symbol="drawIcons"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="3" lineNum="53" pc="268435827" symbol="drawIcons"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="3" lineNum="55" pc="268435900" symbol="drawIcons"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="3" lineNum="57" pc="268435911" symbol="drawIcons"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="3" lineNum="58" pc="268435930" symbol="drawIcons"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="3" lineNum="59" pc="268435981" symbol="drawIcons"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="3" lineNum="60" pc="268436057" symbol="drawIcons"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="3" lineNum="62" pc="268436136" symbol="drawIcons"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="3" lineNum="64" pc="268436147" symbol="drawIcons"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="3" lineNum="65" pc="268436166" symbol="drawIcons"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="3" lineNum="66" pc="268436242" symbol="drawIcons"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="3" lineNum="67" pc="268436318" symbol="drawIcons"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="3" lineNum="68" pc="268436394" symbol="drawIcons"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="4" lineNum="74" pc="268436474" symbol="getYOnCircle"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="4" lineNum="75" pc="268436486" symbol="getYOnCircle"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="4" lineNum="76" pc="268436493" symbol="getYOnCircle"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="4" lineNum="77" pc="268436521" symbol="getYOnCircle"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="4" lineNum="13" pc="268443251" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="4" lineNum="14" pc="268443273" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="4" lineNum="15" pc="268443301" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="4" lineNum="16" pc="268443323" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="4" lineNum="17" pc="268443351" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="4" lineNum="19" pc="268443394" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="4" lineNum="20" pc="268443437" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="4" lineNum="21" pc="268443480" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="4" lineNum="22" pc="268443523" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StatusIcons.mc" id="4" lineNum="24" pc="268443537" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="36" pc="268436528" symbol="drawTime"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="39" pc="268436540" symbol="drawTime"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="40" pc="268436551" symbol="drawTime"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="42" pc="268436570" symbol="drawTime"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="44" pc="268436586" symbol="drawTime"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="45" pc="268436597" symbol="drawTime"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="47" pc="268436616" symbol="drawTime"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="50" pc="268436632" symbol="drawTime"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="53" pc="268436648" symbol="drawTime"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="54" pc="268436665" symbol="drawTime"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="55" pc="268436696" symbol="drawTime"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="56" pc="268436720" symbol="drawTime"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="57" pc="268436744" symbol="drawTime"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="60" pc="268436802" symbol="drawTime"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="61" pc="268436831" symbol="drawTime"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="62" pc="268436860" symbol="drawTime"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="64" pc="268436889" symbol="drawTime"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="65" pc="268436916" symbol="drawTime"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="68" pc="268436943" symbol="drawTime"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="69" pc="268436971" symbol="drawTime"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="70" pc="268436993" symbol="drawTime"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="71" pc="268437027" symbol="drawTime"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="72" pc="268437058" symbol="drawTime"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="73" pc="268437092" symbol="drawTime"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="74" pc="268437138" symbol="drawTime"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="77" pc="268437172" symbol="drawTime"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="78" pc="268437186" symbol="drawTime"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="79" pc="268437206" symbol="drawTime"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="80" pc="268437226" symbol="drawTime"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="83" pc="268437242" symbol="drawTime"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="84" pc="268437256" symbol="drawTime"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="85" pc="268437276" symbol="drawTime"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="86" pc="268437296" symbol="drawTime"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="89" pc="268437312" symbol="drawTime"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="90" pc="268437326" symbol="drawTime"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="91" pc="268437346" symbol="drawTime"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="92" pc="268437366" symbol="drawTime"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="25" pc="268443743" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="26" pc="268443786" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="27" pc="268443829" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="29" pc="268443866" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="30" pc="268443903" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="31" pc="268443940" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="32" pc="268443977" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="33" pc="268444014" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\TimeText.mc" id="6" lineNum="34" pc="268444051" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceBackground.mc" id="8" lineNum="7" pc="268437383" symbol="initialize"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceBackground.mc" id="8" lineNum="8" pc="268437387" symbol="initialize"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceBackground.mc" id="8" lineNum="12" pc="268437408" symbol="initialize"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceBackground.mc" id="9" lineNum="15" pc="268437429" symbol="draw"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceBackground.mc" id="9" lineNum="17" pc="268437433" symbol="draw"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceBackground.mc" id="9" lineNum="18" pc="268437469" symbol="draw"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="11" lineNum="18" pc="268437482" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="11" lineNum="21" pc="268437494" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="11" lineNum="22" pc="268437519" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="11" lineNum="23" pc="268437547" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="11" lineNum="26" pc="268437592" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="11" lineNum="27" pc="268437609" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="11" lineNum="28" pc="268437628" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="11" lineNum="29" pc="268437647" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="11" lineNum="30" pc="268437654" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="11" lineNum="33" pc="268437677" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="11" lineNum="34" pc="268437713" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="11" lineNum="42" pc="268437909" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="11" lineNum="43" pc="268437941" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="11" lineNum="51" pc="268438143" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="11" lineNum="52" pc="268438179" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="11" lineNum="57" pc="268438371" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="11" lineNum="58" pc="268438407" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="11" lineNum="65" pc="268438599" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="11" lineNum="66" pc="268438613" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="11" lineNum="67" pc="268438628" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="11" lineNum="68" pc="268438694" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="11" lineNum="69" pc="268438711" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="11" lineNum="70" pc="268438730" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="11" lineNum="71" pc="268438740" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="11" lineNum="72" pc="268438776" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="11" lineNum="15" pc="268443581" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsBar.mc" id="11" lineNum="16" pc="268443618" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="13" lineNum="18" pc="268438809" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="13" lineNum="21" pc="268438821" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="13" lineNum="22" pc="268438846" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="13" lineNum="23" pc="268438874" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="13" lineNum="26" pc="268438919" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="13" lineNum="27" pc="268438936" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="13" lineNum="28" pc="268438953" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="13" lineNum="29" pc="268438972" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="13" lineNum="30" pc="268438979" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="13" lineNum="31" pc="268439009" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="13" lineNum="32" pc="268439033" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="13" lineNum="35" pc="268439065" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="13" lineNum="36" pc="268439088" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="13" lineNum="37" pc="268439095" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="13" lineNum="40" pc="268439118" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="13" lineNum="41" pc="268439154" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="13" lineNum="49" pc="268439350" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="13" lineNum="50" pc="268439382" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="13" lineNum="58" pc="268439584" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="13" lineNum="59" pc="268439620" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="13" lineNum="64" pc="268439812" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="13" lineNum="65" pc="268439848" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="13" lineNum="72" pc="268440040" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="13" lineNum="73" pc="268440054" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="13" lineNum="74" pc="268440069" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="13" lineNum="75" pc="268440135" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="13" lineNum="76" pc="268440152" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="13" lineNum="77" pc="268440171" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="13" lineNum="78" pc="268440181" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="13" lineNum="79" pc="268440217" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="13" lineNum="15" pc="268444095" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\CaloriesBar.mc" id="13" lineNum="16" pc="268444132" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceApp.mc" id="15" lineNum="6" pc="268440250" symbol="initialize"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceApp.mc" id="15" lineNum="7" pc="268440254" symbol="initialize"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceApp.mc" id="16" lineNum="11" pc="268440273" symbol="onStart"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceApp.mc" id="17" lineNum="15" pc="268440278" symbol="onStop"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceApp.mc" id="18" lineNum="19" pc="268440283" symbol="getInitialView"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceApp.mc" id="18" lineNum="20" pc="268440287" symbol="getInitialView"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceApp.mc" id="19" lineNum="24" pc="268440325" symbol="onSettingsChanged"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceApp.mc" id="19" lineNum="25" pc="268440329" symbol="onSettingsChanged"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\BatteryText.mc" id="21" lineNum="13" pc="268440346" symbol="drawBattery"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\BatteryText.mc" id="21" lineNum="16" pc="268440358" symbol="drawBattery"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\BatteryText.mc" id="21" lineNum="17" pc="268440375" symbol="drawBattery"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\BatteryText.mc" id="21" lineNum="18" pc="268440409" symbol="drawBattery"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\BatteryText.mc" id="21" lineNum="21" pc="268440447" symbol="drawBattery"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\BatteryText.mc" id="21" lineNum="22" pc="268440471" symbol="drawBattery"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\BatteryText.mc" id="21" lineNum="23" pc="268440495" symbol="drawBattery"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\BatteryText.mc" id="21" lineNum="24" pc="268440509" symbol="drawBattery"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\DateText.mc" id="23" lineNum="15" pc="268440532" symbol="drawDate"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\DateText.mc" id="23" lineNum="18" pc="268440544" symbol="drawDate"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\DateText.mc" id="23" lineNum="19" pc="268440588" symbol="drawDate"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\DateText.mc" id="23" lineNum="22" pc="268440648" symbol="drawDate"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\DateText.mc" id="23" lineNum="23" pc="268440669" symbol="drawDate"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\DateText.mc" id="23" lineNum="24" pc="268440696" symbol="drawDate"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\DateText.mc" id="23" lineNum="25" pc="268440724" symbol="drawDate"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\DateText.mc" id="23" lineNum="28" pc="268440752" symbol="drawDate"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\DateText.mc" id="23" lineNum="29" pc="268440776" symbol="drawDate"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\DateText.mc" id="23" lineNum="30" pc="268440800" symbol="drawDate"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\DateText.mc" id="23" lineNum="31" pc="268440814" symbol="drawDate"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\DateText.mc" id="23" lineNum="13" pc="268443207" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="25" lineNum="18" pc="268440831" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="25" lineNum="21" pc="268440843" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="25" lineNum="22" pc="268440868" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="25" lineNum="23" pc="268440896" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="25" lineNum="26" pc="268440941" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="25" lineNum="27" pc="268440958" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="25" lineNum="28" pc="268440983" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="25" lineNum="29" pc="268441002" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="25" lineNum="30" pc="268441009" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="25" lineNum="33" pc="268441032" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="25" lineNum="34" pc="268441068" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="25" lineNum="42" pc="268441264" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="25" lineNum="43" pc="268441296" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="25" lineNum="51" pc="268441498" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="25" lineNum="52" pc="268441534" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="25" lineNum="57" pc="268441726" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="25" lineNum="58" pc="268441762" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="25" lineNum="65" pc="268441954" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="25" lineNum="66" pc="268441968" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="25" lineNum="67" pc="268441983" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="25" lineNum="68" pc="268442030" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="25" lineNum="69" pc="268442047" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="25" lineNum="70" pc="268442066" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="25" lineNum="71" pc="268442076" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="25" lineNum="72" pc="268442112" symbol="drawBar"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="25" lineNum="15" pc="268443662" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\IntensityMinutesBar.mc" id="25" lineNum="16" pc="268443699" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="27" lineNum="15" pc="268442145" symbol="initialize"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="27" lineNum="16" pc="268442149" symbol="initialize"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="28" lineNum="20" pc="268442168" symbol="onLayout"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="28" lineNum="21" pc="268442172" symbol="onLayout"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="29" lineNum="27" pc="268442210" symbol="onShow"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="30" lineNum="31" pc="268442215" symbol="onUpdate"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="30" lineNum="32" pc="268442219" symbol="onUpdate"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="30" lineNum="33" pc="268442255" symbol="onUpdate"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="30" lineNum="35" pc="268442267" symbol="onUpdate"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="30" lineNum="36" pc="268442291" symbol="onUpdate"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="30" lineNum="37" pc="268442315" symbol="onUpdate"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="30" lineNum="38" pc="268442339" symbol="onUpdate"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="30" lineNum="40" pc="268442365" symbol="onUpdate"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="30" lineNum="41" pc="268442389" symbol="onUpdate"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="30" lineNum="56" pc="268442411" symbol="onUpdate"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="30" lineNum="62" pc="268442431" symbol="onUpdate"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="30" lineNum="63" pc="268442462" symbol="onUpdate"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="30" lineNum="64" pc="268442473" symbol="onUpdate"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="30" lineNum="65" pc="268442496" symbol="onUpdate"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="30" lineNum="66" pc="268442507" symbol="onUpdate"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="30" lineNum="67" pc="268442530" symbol="onUpdate"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="30" lineNum="68" pc="268442541" symbol="onUpdate"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="30" lineNum="72" pc="268442564" symbol="onUpdate"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="31" lineNum="79" pc="268442585" symbol="onHide"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="32" lineNum="83" pc="268442590" symbol="onExitSleep"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="32" lineNum="84" pc="268442594" symbol="onExitSleep"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="33" lineNum="88" pc="268442611" symbol="onEnterSleep"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="33" lineNum="89" pc="268442615" symbol="onEnterSleep"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="33" lineNum="13" pc="268443133" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="39" lineNum="22" pc="268442632" symbol="WatchFace"/>
+<entry filename="Rez" id="39" lineNum="25" pc="268442644" symbol="WatchFace"/>
+<entry filename="Rez" id="39" lineNum="26" pc="268442668" symbol="WatchFace"/>
+<entry filename="Rez" id="39" lineNum="27" pc="268442735" symbol="WatchFace"/>
+<entry filename="Rez" id="39" lineNum="28" pc="268442802" symbol="WatchFace"/>
+<entry filename="Rez" id="39" lineNum="29" pc="268442869" symbol="WatchFace"/>
+<entry filename="Rez" id="39" lineNum="30" pc="268442936" symbol="WatchFace"/>
+<entry filename="Rez" id="39" lineNum="32" pc="268443003" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
-<entry field="true" id="58" symbol="textWidthMinutes"/>
+<entry field="true" id="74" symbol="textWidthMinutes"/>
 <entry id="8388639" module="true" symbol="Graphics"/>
-<entry field="true" id="67" symbol="smallFilledFont"/>
-<entry id="15" module="true" symbol="TimeText"/>
-<entry field="true" id="56" symbol="lowPower"/>
+<entry field="true" id="83" symbol="smallFilledFont"/>
+<entry id="17" module="true" symbol="TimeText"/>
+<entry field="true" id="72" symbol="lowPower"/>
 <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
-<entry id="51" method="true" symbol="drawDate"/>
-<entry id="19" module="true" symbol="BatteryText"/>
+<entry id="57" method="true" symbol="drawDate"/>
+<entry field="true" id="60" symbol="alarmEnabled"/>
+<entry id="21" module="true" symbol="BatteryText"/>
 <entry id="4" module="true" symbol="globals/Rez/Menus"/>
-<entry field="true" id="42" symbol="SecondsColorTitle"/>
-<entry field="true" id="70" symbol="secondsColor"/>
-<entry field="true" id="46" symbol="ColorGreen"/>
+<entry field="true" id="48" symbol="SecondsColorTitle"/>
+<entry field="true" id="86" symbol="secondsColor"/>
+<entry field="true" id="52" symbol="ColorGreen"/>
 <entry id="8389683" method="true" symbol="onSettingsChanged"/>
-<entry field="true" id="63" symbol="minutesFont"/>
+<entry field="true" id="79" symbol="minutesFont"/>
 <entry field="true" id="8389661" symbol="maxWidth"/>
-<entry field="true" id="59" symbol="textWidthSeconds"/>
-<entry field="true" id="41" symbol="ColorRed"/>
-<entry id="13" module="true" symbol="globals/TimeText"/>
-<entry field="true" id="61" symbol="textHeightSmall"/>
-<entry field="true" id="49" symbol="UpperRightComplicationTitle"/>
+<entry field="true" id="75" symbol="textWidthSeconds"/>
+<entry field="true" id="47" symbol="ColorRed"/>
+<entry field="true" id="31" symbol="DoNotDisturbIcon"/>
+<entry id="14" module="true" symbol="globals/TimeText"/>
+<entry field="true" id="8389795" symbol="doNotDisturb"/>
+<entry field="true" id="77" symbol="textHeightSmall"/>
+<entry field="true" id="55" symbol="UpperRightComplicationTitle"/>
 <entry id="8388924" module="true" symbol="Gregorian"/>
-<entry id="20" module="true" symbol="DateText"/>
+<entry id="22" module="true" symbol="DateText"/>
 <entry id="8388647" module="true" symbol="UserProfile"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-<entry field="true" id="28" symbol="big_outline_font"/>
-<entry id="17" module="true" symbol="CaloriesBar"/>
-<entry id="74" method="true" symbol="drawTime"/>
-<entry field="true" id="39" symbol="AppName"/>
+<entry id="16" module="true" symbol="StatusIcons"/>
+<entry field="true" id="28" symbol="PhoneIcon"/>
+<entry field="true" id="34" symbol="big_outline_font"/>
+<entry id="19" module="true" symbol="CaloriesBar"/>
+<entry id="90" method="true" symbol="drawTime"/>
+<entry field="true" id="45" symbol="AppName"/>
 <entry id="8388633" module="true" symbol="ActivityMonitor"/>
-<entry field="true" id="35" symbol="ComplicationBattery"/>
-<entry field="true" id="27" symbol="big_filled_font"/>
+<entry field="true" id="41" symbol="ComplicationBattery"/>
+<entry field="true" id="33" symbol="big_filled_font"/>
 <entry id="8" module="true" symbol="globals/Rez/Strings"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
-<entry field="true" id="66" symbol="bigOutlineFont"/>
-<entry id="55" method="true" symbol="drawBar"/>
+<entry field="true" id="82" symbol="bigOutlineFont"/>
+<entry field="true" id="30" symbol="NotificationIcon"/>
+<entry id="71" method="true" symbol="drawBar"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
-<entry field="true" id="33" symbol="ComplicationActiveMinutesBar"/>
+<entry field="true" id="39" symbol="ComplicationActiveMinutesBar"/>
 <entry id="2" module="true" symbol="globals/Rez"/>
-<entry field="true" id="57" symbol="textWidthHour"/>
-<entry id="12" module="true" symbol="globals/IntensityMinutesBar"/>
-<entry field="true" id="34" symbol="MinutesColorTitle"/>
+<entry field="true" id="73" symbol="textWidthHour"/>
+<entry id="13" module="true" symbol="globals/IntensityMinutesBar"/>
+<entry field="true" id="40" symbol="MinutesColorTitle"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
 <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
-<entry id="22" object="true" symbol="Forerunner745WatchFaceView"/>
+<entry id="24" object="true" symbol="Forerunner745WatchFaceView"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry id="8389348" symbol="font"/>
-<entry field="true" id="38" symbol="ComplicationCaloriesBurnedBar"/>
-<entry id="25" module="true" symbol="Menus"/>
-<entry field="true" id="31" symbol="ColorDarkGray"/>
+<entry field="true" id="44" symbol="ComplicationCaloriesBurnedBar"/>
+<entry id="27" module="true" symbol="Menus"/>
+<entry field="true" id="37" symbol="ColorDarkGray"/>
 <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
-<entry field="true" id="62" symbol="hourFont"/>
-<entry id="52" method="true" symbol="drawBattery"/>
-<entry field="true" id="60" symbol="textHeightBig"/>
+<entry field="true" id="78" symbol="hourFont"/>
+<entry id="58" method="true" symbol="drawBattery"/>
+<entry field="true" id="76" symbol="textHeightBig"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
-<entry field="true" id="48" symbol="DisplaySecondsTitle"/>
+<entry field="true" id="54" symbol="DisplaySecondsTitle"/>
 <entry id="8389376" method="true" symbol="onEnterSleep"/>
 <entry field="true" id="8389063" symbol="identifier"/>
-<entry field="true" id="54" symbol="accentColor"/>
-<entry field="true" id="43" symbol="ComplicationEmpty"/>
-<entry field="true" id="44" symbol="ColorWhite"/>
+<entry field="true" id="70" symbol="accentColor"/>
+<entry field="true" id="49" symbol="ComplicationEmpty"/>
+<entry field="true" id="64" symbol="notificationIcon"/>
+<entry field="true" id="50" symbol="ColorWhite"/>
 <entry id="7" module="true" symbol="globals/Rez/JsonData"/>
-<entry field="true" id="36" symbol="ColorBlack"/>
+<entry field="true" id="42" symbol="ColorBlack"/>
+<entry field="true" id="63" symbol="alarmIcon"/>
+<entry field="true" id="65" symbol="doNotDisturbIcon"/>
 <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
 <entry id="9" module="true" symbol="globals/DateText"/>
-<entry field="true" id="23" symbol="bigFont"/>
+<entry field="true" id="66" symbol="icons"/>
+<entry field="true" id="8391244" method="true" symbol="isConnected"/>
+<entry field="true" id="25" symbol="bigFont"/>
 <entry id="10" module="true" symbol="globals/BatteryText"/>
+<entry field="true" id="61" symbol="hasNotification"/>
 <entry id="8389377" method="true" symbol="onExitSleep"/>
 <entry id="8388644" module="true" symbol="System"/>
 <entry id="8388645" module="true" symbol="Time"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
-<entry id="18" object="true" symbol="Forerunner745WatchFaceApp"/>
-<entry field="true" id="47" symbol="AccentColorTitle"/>
+<entry id="20" object="true" symbol="Forerunner745WatchFaceApp"/>
+<entry id="67" method="true" symbol="drawIcons"/>
+<entry field="true" id="53" symbol="AccentColorTitle"/>
 <entry id="8388640" module="true" symbol="Lang"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
 <entry id="8389068" method="true" symbol="draw"/>
-<entry field="true" id="64" symbol="secondsFont"/>
-<entry field="true" id="26" symbol="LauncherIcon"/>
+<entry field="true" id="80" symbol="secondsFont"/>
+<entry field="true" id="32" symbol="LauncherIcon"/>
 <entry id="8388610" symbol="statics"/>
 <entry id="8389123" method="true" symbol="onShow"/>
-<entry field="true" id="29" symbol="small_filled_font"/>
-<entry field="true" id="65" symbol="bigFilledFont"/>
+<entry field="true" id="35" symbol="small_filled_font"/>
+<entry field="true" id="81" symbol="bigFilledFont"/>
 <entry id="8389350" module="true" symbol="globals"/>
-<entry id="21" module="true" symbol="IntensityMinutesBar"/>
+<entry id="23" module="true" symbol="IntensityMinutesBar"/>
+<entry field="true" id="62" symbol="phoneIcon"/>
+<entry id="11" module="true" symbol="globals/StatusIcons"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
 <entry id="8390146" module="true" object="true" symbol="Background"/>
-<entry id="16" module="true" symbol="StepsBar"/>
+<entry id="18" module="true" symbol="StepsBar"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry id="14" module="true" symbol="globals/CaloriesBar"/>
+<entry id="15" module="true" symbol="globals/CaloriesBar"/>
 <entry id="8389279" method="true" symbol="onStart"/>
-<entry field="true" id="53" symbol="fillWidth"/>
-<entry field="true" id="40" symbol="HourColorTitle"/>
-<entry field="true" id="37" symbol="BigComplicationTitle"/>
+<entry field="true" id="69" symbol="fillWidth"/>
+<entry field="true" id="46" symbol="HourColorTitle"/>
+<entry field="true" id="43" symbol="BigComplicationTitle"/>
 <entry id="8388641" module="true" symbol="Math"/>
-<entry field="true" id="30" symbol="ColorLightGray"/>
+<entry field="true" id="59" symbol="settings"/>
+<entry field="true" id="36" symbol="ColorLightGray"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry id="8389281" method="true" symbol="onStop"/>
-<entry field="true" id="68" symbol="hourColor"/>
-<entry field="true" id="69" symbol="minutesColor"/>
-<entry field="true" id="73" symbol="displaySeconds"/>
-<entry field="true" id="71" symbol="hourFilled"/>
-<entry id="11" module="true" symbol="globals/StepsBar"/>
-<entry field="true" id="72" symbol="minutesFilled"/>
-<entry id="24" module="true" symbol="Layouts"/>
-<entry field="true" id="45" symbol="HourFilledTitle"/>
-<entry field="true" id="50" symbol="ComplicationStepsBar"/>
+<entry field="true" id="84" symbol="hourColor"/>
+<entry field="true" id="85" symbol="minutesColor"/>
+<entry field="true" id="89" symbol="displaySeconds"/>
+<entry field="true" id="87" symbol="hourFilled"/>
+<entry id="12" module="true" symbol="globals/StepsBar"/>
+<entry field="true" id="88" symbol="minutesFilled"/>
+<entry id="26" module="true" symbol="Layouts"/>
+<entry field="true" id="51" symbol="HourFilledTitle"/>
+<entry field="true" id="56" symbol="ComplicationStepsBar"/>
 <entry id="5" module="true" symbol="globals/Rez/Fonts"/>
 <entry id="8389125" method="true" symbol="onHide"/>
-<entry field="true" id="32" symbol="MinutesFilledTitle"/>
+<entry field="true" id="38" symbol="MinutesFilledTitle"/>
+<entry id="68" method="true" symbol="getYOnCircle"/>
 <entry id="8388635" module="true" symbol="Application"/>
+<entry field="true" id="29" symbol="AlarmIcon"/>
 </symbolTable>
 <localVars>
-<entry endPc="268436310" name="minutesLocX" stackId="13" startPc="268435468"/>
-<entry endPc="268436310" name="time" stackId="5" startPc="268435468"/>
-<entry endPc="268436310" name="hourString" stackId="7" startPc="268435468"/>
-<entry endPc="268436310" name="hourLocY" stackId="12" startPc="268435468"/>
-<entry endPc="268436310" name="hourLocX" stackId="11" startPc="268435468"/>
-<entry endPc="268436310" name="timeWidth" stackId="10" startPc="268435468"/>
-<entry endPc="268436310" name="minutesString" stackId="8" startPc="268435468"/>
-<entry endPc="268436310" name="secondsString" stackId="9" startPc="268435468"/>
-<entry endPc="268436310" name="secondsLocY" stackId="16" startPc="268435468"/>
-<entry endPc="268436310" name="secondsLocX" stackId="15" startPc="268435468"/>
-<entry endPc="268436310" name="minutesLocY" stackId="14" startPc="268435468"/>
-<entry endPc="268436310" name="moment" stackId="6" startPc="268435468"/>
-<entry arg="true" endPc="268436311" name="minutesLabel" stackId="3" startPc="268435456"/>
-<entry arg="true" endPc="268436311" name="dc" stackId="1" startPc="268435456"/>
-<entry arg="true" endPc="268436311" name="hourLabel" stackId="2" startPc="268435456"/>
-<entry arg="true" endPc="268436311" name="secondsLabel" stackId="4" startPc="268435456"/>
-<entry endPc="268436356" name="dictionary" stackId="1" startPc="268436315"/>
-<entry arg="true" endPc="268436410" name="dc" stackId="1" startPc="268436357"/>
-<entry endPc="268437736" name="stepsString" stackId="10" startPc="268436422"/>
-<entry endPc="268437736" name="font" stackId="8" startPc="268436422"/>
-<entry endPc="268437736" name="activityInfo" stackId="4" startPc="268436422"/>
-<entry endPc="268437736" name="textWidth" stackId="11" startPc="268436422"/>
-<entry endPc="268437736" name="textLocY" stackId="13" startPc="268436422"/>
-<entry endPc="268437736" name="textLocX" stackId="12" startPc="268436422"/>
-<entry endPc="268437736" name="currentSteps" stackId="5" startPc="268436422"/>
-<entry endPc="268437736" name="goal" stackId="6" startPc="268436422"/>
-<entry endPc="268437736" name="barLocY" stackId="3" startPc="268436422"/>
-<entry endPc="268437736" name="barLocX" stackId="2" startPc="268436422"/>
-<entry endPc="268437736" name="percentage" stackId="7" startPc="268436422"/>
-<entry endPc="268437736" name="smallFontHeight" stackId="9" startPc="268436422"/>
-<entry arg="true" endPc="268437737" name="dc" stackId="1" startPc="268436410"/>
-<entry endPc="268437990" name="i" stackId="8" startPc="268437961"/>
-<entry endPc="268439177" name="activityHistory" stackId="5" startPc="268437749"/>
-<entry endPc="268439177" name="font" stackId="10" startPc="268437749"/>
-<entry endPc="268439177" name="activityInfo" stackId="4" startPc="268437749"/>
-<entry endPc="268439177" name="textWidth" stackId="13" startPc="268437749"/>
-<entry endPc="268439177" name="textLocY" stackId="15" startPc="268437749"/>
-<entry endPc="268439177" name="textLocX" stackId="14" startPc="268437749"/>
-<entry endPc="268439177" name="goal" stackId="7" startPc="268437749"/>
-<entry endPc="268439177" name="barLocY" stackId="3" startPc="268437749"/>
-<entry endPc="268439177" name="currentCalories" stackId="6" startPc="268437749"/>
-<entry endPc="268439177" name="barLocX" stackId="2" startPc="268437749"/>
-<entry endPc="268439177" name="percentage" stackId="9" startPc="268437749"/>
-<entry endPc="268439177" name="caloriesString" stackId="12" startPc="268437749"/>
-<entry endPc="268439177" name="smallFontHeight" stackId="11" startPc="268437749"/>
-<entry arg="true" endPc="268439178" name="dc" stackId="1" startPc="268437737"/>
-<entry arg="true" endPc="268439206" name="state" stackId="1" startPc="268439201"/>
-<entry arg="true" endPc="268439211" name="state" stackId="1" startPc="268439206"/>
-<entry endPc="268439459" name="batteryString" stackId="6" startPc="268439286"/>
-<entry endPc="268439459" name="battery" stackId="5" startPc="268439286"/>
-<entry endPc="268439459" name="stats" stackId="4" startPc="268439286"/>
-<entry arg="true" endPc="268439460" name="locY" stackId="3" startPc="268439274"/>
-<entry arg="true" endPc="268439460" name="locX" stackId="2" startPc="268439274"/>
-<entry arg="true" endPc="268439460" name="label" stackId="1" startPc="268439274"/>
-<entry endPc="268439758" name="dateLocX" stackId="7" startPc="268439472"/>
-<entry endPc="268439758" name="today" stackId="3" startPc="268439472"/>
-<entry endPc="268439758" name="dateString" stackId="4" startPc="268439472"/>
-<entry endPc="268439758" name="bigFontHeight" stackId="5" startPc="268439472"/>
-<entry endPc="268439758" name="dateLocY" stackId="8" startPc="268439472"/>
-<entry endPc="268439758" name="dateTextWidth" stackId="6" startPc="268439472"/>
-<entry arg="true" endPc="268439759" name="dateLabel" stackId="2" startPc="268439460"/>
-<entry arg="true" endPc="268439759" name="dc" stackId="1" startPc="268439460"/>
-<entry endPc="268441072" name="activeMinutes" stackId="5" startPc="268439771"/>
-<entry endPc="268441072" name="font" stackId="8" startPc="268439771"/>
-<entry endPc="268441072" name="activeMinutesString" stackId="10" startPc="268439771"/>
-<entry endPc="268441072" name="activityInfo" stackId="4" startPc="268439771"/>
-<entry endPc="268441072" name="textWidth" stackId="11" startPc="268439771"/>
-<entry endPc="268441072" name="textLocY" stackId="13" startPc="268439771"/>
-<entry endPc="268441072" name="textLocX" stackId="12" startPc="268439771"/>
-<entry endPc="268441072" name="goal" stackId="6" startPc="268439771"/>
-<entry endPc="268441072" name="barLocY" stackId="3" startPc="268439771"/>
-<entry endPc="268441072" name="barLocX" stackId="2" startPc="268439771"/>
-<entry endPc="268441072" name="percentage" stackId="7" startPc="268439771"/>
-<entry endPc="268441072" name="smallFontHeight" stackId="9" startPc="268439771"/>
-<entry arg="true" endPc="268441073" name="dc" stackId="1" startPc="268439759"/>
-<entry arg="true" endPc="268441138" name="dc" stackId="1" startPc="268441096"/>
-<entry endPc="268441492" name="dateLabel" stackId="5" startPc="268441147"/>
-<entry endPc="268441492" name="minutesLabel" stackId="3" startPc="268441147"/>
-<entry endPc="268441492" name="hourLabel" stackId="2" startPc="268441147"/>
-<entry endPc="268441492" name="secondsLabel" stackId="4" startPc="268441147"/>
-<entry endPc="268441492" name="bigComplication" stackId="6" startPc="268441147"/>
-<entry arg="true" endPc="268441493" name="dc" stackId="1" startPc="268441143"/>
-<entry endPc="268441978" name="rez_cmp_local_text_upperRightComplication" stackId="7" startPc="268441552"/>
-<entry endPc="268441978" name="rez_cmp_local_text_secondsLabel" stackId="5" startPc="268441552"/>
-<entry endPc="268441978" name="rez_cmp_local_text_dateLabel" stackId="6" startPc="268441552"/>
-<entry endPc="268441978" name="rez_cmp_local_custom_drawable_97869013415313306261" stackId="2" startPc="268441552"/>
-<entry endPc="268441978" name="rez_cmp_local_text_minutesLabel" stackId="4" startPc="268441552"/>
-<entry endPc="268441978" name="rez_cmp_local_text_hourLabel" stackId="3" startPc="268441552"/>
-<entry arg="true" endPc="268441979" name="dc" stackId="1" startPc="268441540"/>
+<entry endPc="268435897" name="x" stackId="3" startPc="268435738"/>
+<entry endPc="268436133" name="x" stackId="4" startPc="268435911"/>
+<entry endPc="268436470" name="x" stackId="5" startPc="268436147"/>
+<entry endPc="268436473" name="numberToDisplay" stackId="2" startPc="268435468"/>
+<entry arg="true" endPc="268436474" name="dc" stackId="1" startPc="268435456"/>
+<entry endPc="268436527" name="y" stackId="3" startPc="268436486"/>
+<entry arg="true" endPc="268436528" name="radius" stackId="2" startPc="268436474"/>
+<entry arg="true" endPc="268436528" name="x" stackId="1" startPc="268436474"/>
+<entry endPc="268437382" name="minutesLocX" stackId="13" startPc="268436540"/>
+<entry endPc="268437382" name="time" stackId="5" startPc="268436540"/>
+<entry endPc="268437382" name="hourString" stackId="7" startPc="268436540"/>
+<entry endPc="268437382" name="hourLocY" stackId="12" startPc="268436540"/>
+<entry endPc="268437382" name="hourLocX" stackId="11" startPc="268436540"/>
+<entry endPc="268437382" name="timeWidth" stackId="10" startPc="268436540"/>
+<entry endPc="268437382" name="minutesString" stackId="8" startPc="268436540"/>
+<entry endPc="268437382" name="secondsString" stackId="9" startPc="268436540"/>
+<entry endPc="268437382" name="secondsLocY" stackId="16" startPc="268436540"/>
+<entry endPc="268437382" name="secondsLocX" stackId="15" startPc="268436540"/>
+<entry endPc="268437382" name="minutesLocY" stackId="14" startPc="268436540"/>
+<entry endPc="268437382" name="moment" stackId="6" startPc="268436540"/>
+<entry arg="true" endPc="268437383" name="minutesLabel" stackId="3" startPc="268436528"/>
+<entry arg="true" endPc="268437383" name="dc" stackId="1" startPc="268436528"/>
+<entry arg="true" endPc="268437383" name="hourLabel" stackId="2" startPc="268436528"/>
+<entry arg="true" endPc="268437383" name="secondsLabel" stackId="4" startPc="268436528"/>
+<entry endPc="268437428" name="dictionary" stackId="1" startPc="268437387"/>
+<entry arg="true" endPc="268437482" name="dc" stackId="1" startPc="268437429"/>
+<entry endPc="268438808" name="stepsString" stackId="10" startPc="268437494"/>
+<entry endPc="268438808" name="font" stackId="8" startPc="268437494"/>
+<entry endPc="268438808" name="activityInfo" stackId="4" startPc="268437494"/>
+<entry endPc="268438808" name="textWidth" stackId="11" startPc="268437494"/>
+<entry endPc="268438808" name="textLocY" stackId="13" startPc="268437494"/>
+<entry endPc="268438808" name="textLocX" stackId="12" startPc="268437494"/>
+<entry endPc="268438808" name="currentSteps" stackId="5" startPc="268437494"/>
+<entry endPc="268438808" name="goal" stackId="6" startPc="268437494"/>
+<entry endPc="268438808" name="barLocY" stackId="3" startPc="268437494"/>
+<entry endPc="268438808" name="barLocX" stackId="2" startPc="268437494"/>
+<entry endPc="268438808" name="percentage" stackId="7" startPc="268437494"/>
+<entry endPc="268438808" name="smallFontHeight" stackId="9" startPc="268437494"/>
+<entry arg="true" endPc="268438809" name="dc" stackId="1" startPc="268437482"/>
+<entry endPc="268439062" name="i" stackId="8" startPc="268439033"/>
+<entry endPc="268440249" name="activityHistory" stackId="5" startPc="268438821"/>
+<entry endPc="268440249" name="font" stackId="10" startPc="268438821"/>
+<entry endPc="268440249" name="activityInfo" stackId="4" startPc="268438821"/>
+<entry endPc="268440249" name="textWidth" stackId="13" startPc="268438821"/>
+<entry endPc="268440249" name="textLocY" stackId="15" startPc="268438821"/>
+<entry endPc="268440249" name="textLocX" stackId="14" startPc="268438821"/>
+<entry endPc="268440249" name="goal" stackId="7" startPc="268438821"/>
+<entry endPc="268440249" name="barLocY" stackId="3" startPc="268438821"/>
+<entry endPc="268440249" name="currentCalories" stackId="6" startPc="268438821"/>
+<entry endPc="268440249" name="barLocX" stackId="2" startPc="268438821"/>
+<entry endPc="268440249" name="percentage" stackId="9" startPc="268438821"/>
+<entry endPc="268440249" name="caloriesString" stackId="12" startPc="268438821"/>
+<entry endPc="268440249" name="smallFontHeight" stackId="11" startPc="268438821"/>
+<entry arg="true" endPc="268440250" name="dc" stackId="1" startPc="268438809"/>
+<entry arg="true" endPc="268440278" name="state" stackId="1" startPc="268440273"/>
+<entry arg="true" endPc="268440283" name="state" stackId="1" startPc="268440278"/>
+<entry endPc="268440531" name="batteryString" stackId="6" startPc="268440358"/>
+<entry endPc="268440531" name="battery" stackId="5" startPc="268440358"/>
+<entry endPc="268440531" name="stats" stackId="4" startPc="268440358"/>
+<entry arg="true" endPc="268440532" name="locY" stackId="3" startPc="268440346"/>
+<entry arg="true" endPc="268440532" name="locX" stackId="2" startPc="268440346"/>
+<entry arg="true" endPc="268440532" name="label" stackId="1" startPc="268440346"/>
+<entry endPc="268440830" name="dateLocX" stackId="7" startPc="268440544"/>
+<entry endPc="268440830" name="today" stackId="3" startPc="268440544"/>
+<entry endPc="268440830" name="dateString" stackId="4" startPc="268440544"/>
+<entry endPc="268440830" name="bigFontHeight" stackId="5" startPc="268440544"/>
+<entry endPc="268440830" name="dateLocY" stackId="8" startPc="268440544"/>
+<entry endPc="268440830" name="dateTextWidth" stackId="6" startPc="268440544"/>
+<entry arg="true" endPc="268440831" name="dateLabel" stackId="2" startPc="268440532"/>
+<entry arg="true" endPc="268440831" name="dc" stackId="1" startPc="268440532"/>
+<entry endPc="268442144" name="activeMinutes" stackId="5" startPc="268440843"/>
+<entry endPc="268442144" name="font" stackId="8" startPc="268440843"/>
+<entry endPc="268442144" name="activeMinutesString" stackId="10" startPc="268440843"/>
+<entry endPc="268442144" name="activityInfo" stackId="4" startPc="268440843"/>
+<entry endPc="268442144" name="textWidth" stackId="11" startPc="268440843"/>
+<entry endPc="268442144" name="textLocY" stackId="13" startPc="268440843"/>
+<entry endPc="268442144" name="textLocX" stackId="12" startPc="268440843"/>
+<entry endPc="268442144" name="goal" stackId="6" startPc="268440843"/>
+<entry endPc="268442144" name="barLocY" stackId="3" startPc="268440843"/>
+<entry endPc="268442144" name="barLocX" stackId="2" startPc="268440843"/>
+<entry endPc="268442144" name="percentage" stackId="7" startPc="268440843"/>
+<entry endPc="268442144" name="smallFontHeight" stackId="9" startPc="268440843"/>
+<entry arg="true" endPc="268442145" name="dc" stackId="1" startPc="268440831"/>
+<entry arg="true" endPc="268442210" name="dc" stackId="1" startPc="268442168"/>
+<entry endPc="268442584" name="dateLabel" stackId="5" startPc="268442219"/>
+<entry endPc="268442584" name="minutesLabel" stackId="3" startPc="268442219"/>
+<entry endPc="268442584" name="hourLabel" stackId="2" startPc="268442219"/>
+<entry endPc="268442584" name="secondsLabel" stackId="4" startPc="268442219"/>
+<entry endPc="268442584" name="bigComplication" stackId="6" startPc="268442219"/>
+<entry arg="true" endPc="268442585" name="dc" stackId="1" startPc="268442215"/>
+<entry endPc="268443070" name="rez_cmp_local_text_upperRightComplication" stackId="7" startPc="268442644"/>
+<entry endPc="268443070" name="rez_cmp_local_text_secondsLabel" stackId="5" startPc="268442644"/>
+<entry endPc="268443070" name="rez_cmp_local_text_dateLabel" stackId="6" startPc="268442644"/>
+<entry endPc="268443070" name="rez_cmp_local_custom_drawable_26786547110981885462" stackId="2" startPc="268442644"/>
+<entry endPc="268443070" name="rez_cmp_local_text_minutesLabel" stackId="4" startPc="268442644"/>
+<entry endPc="268443070" name="rez_cmp_local_text_hourLabel" stackId="3" startPc="268442644"/>
+<entry arg="true" endPc="268443071" name="dc" stackId="1" startPc="268442632"/>
 </localVars>
 <annotations/>
 <dataEntryOffsetMappings>
-<dataEntry offset="135" parentId="" symbolId="globals" type="module"/>
-<dataEntry offset="254" parentId="globals" symbolId="Forerunner745WatchFaceView" type="class"/>
-<dataEntry offset="357" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry offset="436" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry offset="475" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry offset="506" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry offset="561" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry offset="600" parentId="Rez" symbolId="JsonData" type="module"/>
-<dataEntry offset="631" parentId="Rez" symbolId="Strings" type="module"/>
-<dataEntry offset="830" parentId="globals" symbolId="DateText" type="module"/>
-<dataEntry offset="877" parentId="globals" symbolId="BatteryText" type="module"/>
-<dataEntry offset="916" parentId="globals" symbolId="Forerunner745WatchFaceApp" type="class"/>
-<dataEntry offset="995" parentId="globals" symbolId="StepsBar" type="module"/>
-<dataEntry offset="1066" parentId="globals" symbolId="IntensityMinutesBar" type="module"/>
-<dataEntry offset="1137" parentId="globals" symbolId="TimeText" type="module"/>
-<dataEntry offset="1320" parentId="globals" symbolId="CaloriesBar" type="module"/>
-<dataEntry offset="1391" parentId="globals" symbolId="Background" type="class"/>
+<dataEntry offset="143" parentId="" symbolId="globals" type="module"/>
+<dataEntry offset="270" parentId="globals" symbolId="Forerunner745WatchFaceView" type="class"/>
+<dataEntry offset="373" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="452" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="523" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="554" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="609" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="648" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="679" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="878" parentId="globals" symbolId="DateText" type="module"/>
+<dataEntry offset="925" parentId="globals" symbolId="BatteryText" type="module"/>
+<dataEntry offset="964" parentId="globals" symbolId="Forerunner745WatchFaceApp" type="class"/>
+<dataEntry offset="1043" parentId="globals" symbolId="StatusIcons" type="module"/>
+<dataEntry offset="1170" parentId="globals" symbolId="StepsBar" type="module"/>
+<dataEntry offset="1241" parentId="globals" symbolId="IntensityMinutesBar" type="module"/>
+<dataEntry offset="1312" parentId="globals" symbolId="TimeText" type="module"/>
+<dataEntry offset="1495" parentId="globals" symbolId="CaloriesBar" type="module"/>
+<dataEntry offset="1566" parentId="globals" symbolId="Background" type="class"/>
 </dataEntryOffsetMappings>
 <functions>
+<functionEntry accessMode="public" name="drawIcons" parent="StatusIcons">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getYOnCircle" parent="StatusIcons">
+<param id="x"/>
+<param id="radius"/>
+<documentation/>
+</functionEntry>
 <functionEntry accessMode="public" name="drawTime" parent="TimeText">
 <param id="dc"/>
 <param id="hourLabel"/>
