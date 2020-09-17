@@ -44,6 +44,13 @@
         </settingConfig>
     </setting>
     
+    <setting propertyKey="@Properties.BigComplication" title="@Strings.BigComplicationTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.ComplicationActiveMinutesBar</listEntry>
+            <listEntry value="1">@Strings.ComplicationStepsBar</listEntry>
+        </settingConfig>
+    </setting>
+    
     <!--  <setting propertyKey="@Properties.UpperRightComplication" title="@Strings.UpperRightComplicationTitle">
     	<settingConfig type="list">
     		<listEntry value="0">@Strings.ComplicationEmpty</listEntry>

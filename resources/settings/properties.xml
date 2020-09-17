@@ -10,5 +10,6 @@
 	<property id="AccentColor" type="number">0x00FF00</property>
 	
 	<property id="UpperRightComplication" type="number">0</property>
+	<property id="BigComplication" type="number">0</property>
 
 </properties>

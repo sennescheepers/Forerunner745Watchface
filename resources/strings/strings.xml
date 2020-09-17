@@ -19,7 +19,10 @@
     <string id="AccentColorTitle">Accent color</string>
     
     <string id="UpperRightComplicationTitle">Upper right complication</string>
+    <string id="BigComplicationTitle">Big complication (Bottom)</string>
     <string id="ComplicationEmpty">Empty</string>
     <string id="ComplicationBattery">Battery</string>
+    <string id="ComplicationActiveMinutesBar">Current weeks active minutes bar</string>
+    <string id="ComplicationStepsBar">Daily steps goal bar</string>
 
 </strings>

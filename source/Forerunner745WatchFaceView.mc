@@ -55,8 +55,15 @@ class Forerunner745WatchFaceView extends WatchUi.WatchFace {
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
         
-        // Display activity minutes bar
-        IntensityMinutesBar.drawBar(dc);
+        // Display big complication
+        // 0: Weekly active minutes
+        var bigComplication = Application.getApp().getProperty("BigComplication");
+        if (bigComplication == 0) {
+        	IntensityMinutesBar.drawBar(dc);
+        } else if (bigComplication == 1) {
+        	StepsBar.drawBar(dc);
+        }
+        
     }
 
     // Called when this View is removed from the screen. Save the
