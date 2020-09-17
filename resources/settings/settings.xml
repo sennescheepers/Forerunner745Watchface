@@ -1,0 +1,31 @@
+<settings>
+
+    <setting propertyKey="@Properties.HourColor" title="@Strings.HourColorTitle">
+        <settingConfig type="list">
+            <listEntry value="0x0000FF">@Strings.ColorBlue</listEntry>
+            <listEntry value="0xFF0000">@Strings.ColorRed</listEntry>
+            <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
+        </settingConfig>
+    </setting>
+    
+    <setting propertyKey="@Properties.MinutesColor" title="@Strings.MinutesColorTitle">
+        <settingConfig type="list">
+            <listEntry value="0x0000FF">@Strings.ColorBlue</listEntry>
+            <listEntry value="0xFF0000">@Strings.ColorRed</listEntry>
+            <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.HourFilled" title="@Strings.HourFilledTitle">
+        <settingConfig type="boolean" />
+    </setting>
+    
+    <setting propertyKey="@Properties.MinutesFilled" title="@Strings.MinutesFilledTitle">
+        <settingConfig type="boolean" />
+    </setting>
+    
+    <setting propertyKey="@Properties.DisplaySeconds" title="@Strings.DisplaySecondsTitle">
+    	<settingConfig type="boolean"/>
+    </setting>
+
+</settings>

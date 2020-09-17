@@ -1,0 +1,7 @@
+<layout id="WatchFace">
+    <drawable class="Background" />
+    <label id="hourLabel"/>
+    <label id="minutesLabel"/>
+    <label id="secondsLabel"/>
+    <label id="dateLabel"/>
+</layout>
