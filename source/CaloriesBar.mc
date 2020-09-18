@@ -31,7 +31,8 @@ module CaloriesBar {
 			for (var i = 0; i < activityHistory.size(); i++) {
 				goal += activityHistory[i].calories;
 			}
-		} 
+		}
+		goal /= activityHistory.size();
 		goal = (goal == 0) ? 2000 : goal;
 		var percentage = currentCalories / goal;
 		percentage = (percentage >= 1) ? 1 : percentage;
