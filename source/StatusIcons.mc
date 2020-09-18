@@ -48,27 +48,27 @@ module StatusIcons {
 		}
 		
 		if (numberToDisplay == 1) {
-			dc.drawBitmap(dc.getWidth() / 2 - 7.5, dc.getHeight() - 15, icons[0]);
+			dc.drawBitmap(dc.getWidth() / 2 - 7.5, dc.getHeight() - 17, icons[0]);
 		} else if (numberToDisplay == 2) {
 		
 			var x = dc.getWidth() / 2 - 17;
-			dc.drawBitmap(x, getYOnCircle(x, dc.getWidth() / 2) - 15, icons[0]);
+			dc.drawBitmap(x, getYOnCircle(x, dc.getWidth() / 2) - 17, icons[0]);
 			dc.drawBitmap(x + 19, getYOnCircle(x, dc.getWidth() / 2) - 15, icons[1]);
 			
 		} else if (numberToDisplay == 3) {
 			
 			var x = dc.getWidth() / 2;
-			dc.drawBitmap(x - 7.5, dc.getHeight() - 15, icons[0]);
-			dc.drawBitmap(x - 25, getYOnCircle(x - 25, dc.getWidth() / 2) - 15, icons[1]);
-			dc.drawBitmap(x + 12.5, getYOnCircle(x + 12.5, dc.getWidth() / 2) - 15, icons[2]);
+			dc.drawBitmap(x - 7.5, dc.getHeight() - 17, icons[0]);
+			dc.drawBitmap(x - 25, getYOnCircle(x - 25, dc.getWidth() / 2) - 17, icons[1]);
+			dc.drawBitmap(x + 12.5, getYOnCircle(x + 12.5, dc.getWidth() / 2) - 17, icons[2]);
 			
 		} else if (numberToDisplay == 4) {
 			
 			var x = dc.getWidth() / 2;
-			dc.drawBitmap(x - 31, getYOnCircle(x - 31, dc.getWidth() / 2) - 15, icons[0]);
-			dc.drawBitmap(x - 17, getYOnCircle(x - 17, dc.getWidth() / 2) - 15, icons[1]);
-			dc.drawBitmap(x + 2, getYOnCircle(x + 2, dc.getWidth() / 2) - 15, icons[2]);
-			dc.drawBitmap(x + 19, getYOnCircle(x + 19, dc.getWidth() / 2) - 15, icons[3]);
+			dc.drawBitmap(x - 31, getYOnCircle(x - 31, dc.getWidth() / 2) - 17, icons[0]);
+			dc.drawBitmap(x - 17, getYOnCircle(x - 17, dc.getWidth() / 2) - 17, icons[1]);
+			dc.drawBitmap(x + 2, getYOnCircle(x + 2, dc.getWidth() / 2) - 17, icons[2]);
+			dc.drawBitmap(x + 19, getYOnCircle(x + 19, dc.getWidth() / 2) - 17, icons[3]);
 			
 		}
 	

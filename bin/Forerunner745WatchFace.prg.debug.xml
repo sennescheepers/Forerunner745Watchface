@@ -244,13 +244,13 @@
 <entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="33" lineNum="89" pc="268442721" symbol="onEnterSleep"/>
 <entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="33" lineNum="13" pc="268443239" symbol="&lt;init&gt;"/>
 <entry filename="Rez" id="39" lineNum="32" pc="268442738" symbol="WatchFace"/>
-<entry filename="Rez" id="39" lineNum="35" pc="268442750" symbol="WatchFace"/>
-<entry filename="Rez" id="39" lineNum="36" pc="268442774" symbol="WatchFace"/>
-<entry filename="Rez" id="39" lineNum="37" pc="268442841" symbol="WatchFace"/>
-<entry filename="Rez" id="39" lineNum="38" pc="268442908" symbol="WatchFace"/>
-<entry filename="Rez" id="39" lineNum="39" pc="268442975" symbol="WatchFace"/>
-<entry filename="Rez" id="39" lineNum="40" pc="268443042" symbol="WatchFace"/>
-<entry filename="Rez" id="39" lineNum="42" pc="268443109" symbol="WatchFace"/>
+<entry filename="Rez" id="39" lineNum="34" pc="268442750" symbol="WatchFace"/>
+<entry filename="Rez" id="39" lineNum="35" pc="268442774" symbol="WatchFace"/>
+<entry filename="Rez" id="39" lineNum="36" pc="268442841" symbol="WatchFace"/>
+<entry filename="Rez" id="39" lineNum="37" pc="268442908" symbol="WatchFace"/>
+<entry filename="Rez" id="39" lineNum="38" pc="268442975" symbol="WatchFace"/>
+<entry filename="Rez" id="39" lineNum="39" pc="268443042" symbol="WatchFace"/>
+<entry filename="Rez" id="39" lineNum="41" pc="268443109" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
 <entry field="true" id="83" symbol="textWidthMinutes"/>
@@ -483,7 +483,7 @@
 <entry endPc="268442690" name="bigComplication" stackId="6" startPc="268442325"/>
 <entry arg="true" endPc="268442691" name="dc" stackId="1" startPc="268442321"/>
 <entry endPc="268443176" name="rez_cmp_local_text_upperRightComplication" stackId="7" startPc="268442750"/>
-<entry endPc="268443176" name="rez_cmp_local_custom_drawable_49252303326085713646" stackId="2" startPc="268442750"/>
+<entry endPc="268443176" name="rez_cmp_local_custom_drawable_16568417441350079060" stackId="2" startPc="268442750"/>
 <entry endPc="268443176" name="rez_cmp_local_text_secondsLabel" stackId="5" startPc="268442750"/>
 <entry endPc="268443176" name="rez_cmp_local_text_dateLabel" stackId="6" startPc="268442750"/>
 <entry endPc="268443176" name="rez_cmp_local_text_minutesLabel" stackId="4" startPc="268442750"/>
