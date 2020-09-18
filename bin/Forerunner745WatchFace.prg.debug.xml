@@ -486,8 +486,8 @@
 <entry arg="true" endPc="268442780" name="dc" stackId="1" startPc="268442410"/>
 <entry endPc="268443281" name="rez_cmp_local_text_upperRightComplication" stackId="7" startPc="268442855"/>
 <entry endPc="268443281" name="rez_cmp_local_text_secondsLabel" stackId="5" startPc="268442855"/>
+<entry endPc="268443281" name="rez_cmp_local_custom_drawable_15163675873412123192" stackId="2" startPc="268442855"/>
 <entry endPc="268443281" name="rez_cmp_local_text_dateLabel" stackId="6" startPc="268442855"/>
-<entry endPc="268443281" name="rez_cmp_local_custom_drawable_12022707871039723073" stackId="2" startPc="268442855"/>
 <entry endPc="268443281" name="rez_cmp_local_text_minutesLabel" stackId="4" startPc="268442855"/>
 <entry endPc="268443281" name="rez_cmp_local_text_hourLabel" stackId="3" startPc="268442855"/>
 <entry arg="true" endPc="268443282" name="dc" stackId="1" startPc="268442843"/>
