@@ -70,7 +70,7 @@ module CaloriesBar {
 		]);
 		
 		// Draw text
-		var font = Graphics.FONT_XTINY;
+		var font = WatchUi.loadResource(Rez.Fonts.accent_font);
 		var smallFontHeight = dc.getFontHeight(font);
 		var caloriesString = Lang.format("Cal. burned $1$/$2$", [currentCalories.toNumber(), goal.toNumber()]);
 		var textWidth = dc.getTextWidthInPixels(caloriesString, font);

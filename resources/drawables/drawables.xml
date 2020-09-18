@@ -2,6 +2,15 @@
     <bitmap id="LauncherIcon" filename="launcher_icon.png" />
     <bitmap id="PhoneIcon" filename="phone.png"/>
     <bitmap id="AlarmIcon" filename="alarm.png"/>
-    <bitmap id="NotificationIcon" filename="notification.png"/>
+    <bitmap id="OneNotificationIcon" filename="notification_1.png"/>
+    <bitmap id="TwoNotificationIcon" filename="notification_2.png"/>
+    <bitmap id="ThreeNotificationIcon" filename="notification_3.png"/>
+    <bitmap id="FourNotificationIcon" filename="notification_4.png"/>
+    <bitmap id="FiveNotificationIcon" filename="notification_5.png"/>
+    <bitmap id="SixNotificationIcon" filename="notification_6.png"/>
+    <bitmap id="SevenNotificationIcon" filename="notification_7.png"/>
+    <bitmap id="EightNotificationIcon" filename="notification_8.png"/>
+    <bitmap id="NineNotificationIcon" filename="notification_9.png"/>
+    <bitmap id="MoreNotificationIcon" filename="notification_+.png"/>
     <bitmap id="DoNotDisturbIcon" filename="moon.png"/>
 </drawables>

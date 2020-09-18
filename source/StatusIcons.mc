@@ -14,11 +14,14 @@ module StatusIcons {
 	var isConnected = settings.phoneConnected;
 	var alarmEnabled = settings.alarmCount > 0;
 	var doNotDisturb = settings.doNotDisturb;
-	var hasNotification = settings.notificationCount > 0;
+	var notificationCount = settings.notificationCount;
 	
 	var phoneIcon = WatchUi.loadResource(Rez.Drawables.PhoneIcon);
 	var alarmIcon = WatchUi.loadResource(Rez.Drawables.AlarmIcon);
-	var notificationIcon = WatchUi.loadResource(Rez.Drawables.NotificationIcon);
+	var notificationIcons = [WatchUi.loadResource(Rez.Drawables.OneNotificationIcon), WatchUi.loadResource(Rez.Drawables.TwoNotificationIcon), WatchUi.loadResource(Rez.Drawables.ThreeNotificationIcon),
+							WatchUi.loadResource(Rez.Drawables.FourNotificationIcon), WatchUi.loadResource(Rez.Drawables.FiveNotificationIcon), WatchUi.loadResource(Rez.Drawables.SixNotificationIcon),
+							WatchUi.loadResource(Rez.Drawables.SevenNotificationIcon), WatchUi.loadResource(Rez.Drawables.EightNotificationIcon), WatchUi.loadResource(Rez.Drawables.NineNotificationIcon),
+							WatchUi.loadResource(Rez.Drawables.MoreNotificationIcon)];
 	var doNotDisturbIcon = WatchUi.loadResource(Rez.Drawables.DoNotDisturbIcon);
 	
 	var icons = new [4];
@@ -39,33 +42,33 @@ module StatusIcons {
 			icons[numberToDisplay] = doNotDisturbIcon;
 			numberToDisplay++;
 		}
-		if (hasNotification) {
-			icons[numberToDisplay] = notificationIcon;
+		if (notificationCount > 0) {
+			icons[numberToDisplay] = notificationIcons[notificationCount - 1];
 			numberToDisplay++;
 		}
 		
 		if (numberToDisplay == 1) {
-			dc.drawBitmap(dc.getWidth() / 2 - 5, dc.getHeight() - 10, icons[0]);
+			dc.drawBitmap(dc.getWidth() / 2 - 7.5, dc.getHeight() - 15, icons[0]);
 		} else if (numberToDisplay == 2) {
 		
-			var x = dc.getWidth() / 2 - 12;
-			dc.drawBitmap(x, getYOnCircle(x, dc.getWidth() / 2) - 10, icons[0]);
-			dc.drawBitmap(x + 14, getYOnCircle(x, dc.getWidth() / 2) - 10, icons[1]);
+			var x = dc.getWidth() / 2 - 17;
+			dc.drawBitmap(x, getYOnCircle(x, dc.getWidth() / 2) - 15, icons[0]);
+			dc.drawBitmap(x + 19, getYOnCircle(x, dc.getWidth() / 2) - 15, icons[1]);
 			
 		} else if (numberToDisplay == 3) {
 			
 			var x = dc.getWidth() / 2;
-			dc.drawBitmap(x - 5, dc.getHeight() - 10, icons[0]);
-			dc.drawBitmap(x - 20, getYOnCircle(x - 20, dc.getWidth() / 2) - 10, icons[1]);
-			dc.drawBitmap(x + 10, getYOnCircle(x + 10, dc.getWidth() / 2) - 10, icons[2]);
+			dc.drawBitmap(x - 7.5, dc.getHeight() - 15, icons[0]);
+			dc.drawBitmap(x - 25, getYOnCircle(x - 25, dc.getWidth() / 2) - 15, icons[1]);
+			dc.drawBitmap(x + 12.5, getYOnCircle(x + 12.5, dc.getWidth() / 2) - 15, icons[2]);
 			
 		} else if (numberToDisplay == 4) {
 			
 			var x = dc.getWidth() / 2;
-			dc.drawBitmap(x - 24, getYOnCircle(x - 24, dc.getWidth() / 2) - 10, icons[0]);
-			dc.drawBitmap(x - 12, getYOnCircle(x - 12, dc.getWidth() / 2) - 10, icons[1]);
-			dc.drawBitmap(x + 2, getYOnCircle(x + 2, dc.getWidth() / 2) - 10, icons[2]);
-			dc.drawBitmap(x + 14, getYOnCircle(x + 14, dc.getWidth() / 2) - 10, icons[3]);
+			dc.drawBitmap(x - 31, getYOnCircle(x - 31, dc.getWidth() / 2) - 15, icons[0]);
+			dc.drawBitmap(x - 17, getYOnCircle(x - 17, dc.getWidth() / 2) - 15, icons[1]);
+			dc.drawBitmap(x + 2, getYOnCircle(x + 2, dc.getWidth() / 2) - 15, icons[2]);
+			dc.drawBitmap(x + 19, getYOnCircle(x + 19, dc.getWidth() / 2) - 15, icons[3]);
 			
 		}
 	

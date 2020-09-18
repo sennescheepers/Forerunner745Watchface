@@ -62,7 +62,7 @@ module IntensityMinutesBar {
 		]);
 		
 		// Draw text
-		var font = Graphics.FONT_XTINY;
+		var font = WatchUi.loadResource(Rez.Fonts.accent_font);
 		var smallFontHeight = dc.getFontHeight(font);
 		var activeMinutesString = Lang.format("7d Active Min. $1$", [activeMinutes.toNumber()]);
 		var textWidth = dc.getTextWidthInPixels(activeMinutesString, font);

@@ -62,7 +62,7 @@ module StepsBar {
 		]);
 		
 		// Draw text
-		var font = Graphics.FONT_XTINY;
+		var font = WatchUi.loadResource(Rez.Fonts.accent_font);
 		var smallFontHeight = dc.getFontHeight(font);
 		var stepsString = Lang.format("Steps $1$/$2$", [currentSteps.toNumber(), goal.toNumber()]);
 		var textWidth = dc.getTextWidthInPixels(stepsString, font);
