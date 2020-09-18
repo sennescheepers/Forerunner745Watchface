@@ -1,16 +1,16 @@
 <properties>
 
-    <property id="HourColor" type="number">0xFFFFFF</property>
-	<property id="MinutesColor" type="number">0xFFFFFF</property>
-	<property id="SecondsColor" type="number">0xFFFFFF</property>
-	<property id="HourFilled" type="boolean">true</property>
-	<property id="MinutesFilled" type="boolean">false</property>
-	<property id="DisplaySeconds" type="boolean">true</property>
+    <property id="HourColor" type="number">0xFFFFFF</property> <!-- 0xFFFFFF -->
+	<property id="MinutesColor" type="number">0xFFFFFF</property> <!-- 0xFFFFFF -->
+	<property id="SecondsColor" type="number">0xFFFFFF</property> <!-- 0xFFFFFF -->
+	<property id="HourFilled" type="boolean">true</property> <!-- true -->
+	<property id="MinutesFilled" type="boolean">false</property> <!-- false -->
+	<property id="DisplaySeconds" type="boolean">true</property> <!-- true -->
 	
-	<property id="AccentColor" type="number">0x00FF00</property>
+	<property id="AccentColor" type="number">0x00FF00</property> <!-- 0x00FF00 -->
 	
-	<property id="BigComplication" type="number">0</property>
+	<property id="BigComplication" type="number">0</property> <!-- false -->
 	
-	<property id="SemiRoundDisplay" type="boolean">false</property>
+	<property id="SemiRoundDisplay" type="boolean">false</property> <!-- false -->
 
 </properties>
