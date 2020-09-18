@@ -25,5 +25,7 @@
     <string id="ComplicationActiveMinutesBar">Current weeks active minutes bar</string>
     <string id="ComplicationStepsBar">Daily steps goal bar</string>
     <string id="ComplicationCaloriesBurnedBar">Burned calories goal bar</string>
+    
+    <string id="SemiRoundDisplayTitle">Status icons in upper right corner (semi-round screens)</string>
 
 </strings>

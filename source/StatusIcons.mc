@@ -10,6 +10,13 @@ using Toybox.Application;
 
 module StatusIcons {
 
+	var isSemiRound = Application.getApp().getProperty("SemiRoundDisplay");
+	var _dc;
+	var bigFontHeight;
+	var smallFontHeight;
+	var bigFont = WatchUi.loadResource(Rez.Fonts.big_filled_font);
+	var smallFont = Graphics.FONT_SMALL;
+
 	var settings = System.getDeviceSettings();
 	var isConnected = settings.phoneConnected;
 	var alarmEnabled = settings.alarmCount > 0;
@@ -27,6 +34,10 @@ module StatusIcons {
 	var icons = new [4];
 
 	function drawIcons(dc) {
+	
+		_dc = dc;
+		bigFontHeight = dc.getFontHeight(bigFont);
+		smallFontHeight = dc.getFontHeight(smallFont);
 	
 		var numberToDisplay = 0;
 	
@@ -48,33 +59,37 @@ module StatusIcons {
 		}
 		
 		if (numberToDisplay == 1) {
-			dc.drawBitmap(dc.getWidth() / 2 - 7.5, dc.getHeight() - 17, icons[0]);
+			var x = dc.getWidth() / 2;
+			dc.drawBitmap(x - 7.5, getY(x - 7.5, dc.getHeight() / 2) - 17, icons[0]);
 		} else if (numberToDisplay == 2) {
 		
-			var x = dc.getWidth() / 2 - 17;
-			dc.drawBitmap(x, getYOnCircle(x, dc.getWidth() / 2) - 17, icons[0]);
-			dc.drawBitmap(x + 19, getYOnCircle(x, dc.getWidth() / 2) - 15, icons[1]);
+			var x = dc.getWidth() / 2;
+			dc.drawBitmap(x - 17, getY(x - 2, dc.getHeight() / 2) - 17, icons[0]);
+			dc.drawBitmap(x + 2, getY(x + 2, dc.getHeight() / 2) - 15, icons[1]);
 			
 		} else if (numberToDisplay == 3) {
 			
 			var x = dc.getWidth() / 2;
-			dc.drawBitmap(x - 7.5, dc.getHeight() - 17, icons[0]);
-			dc.drawBitmap(x - 25, getYOnCircle(x - 25, dc.getWidth() / 2) - 17, icons[1]);
-			dc.drawBitmap(x + 12.5, getYOnCircle(x + 12.5, dc.getWidth() / 2) - 17, icons[2]);
+			if (isSemiRound) {x += 26.5;}
+			dc.drawBitmap(x - 7.5, getY(x - 7.5, dc.getHeight() / 2) - 17, icons[0]);
+			dc.drawBitmap(x - 26.5, getY(x - 26.5, dc.getHeight() / 2) - 17, icons[1]);
+			dc.drawBitmap(x + 11.5, getY(x + 26.5, dc.getHeight() / 2) - 17, icons[2]);
 			
 		} else if (numberToDisplay == 4) {
 			
 			var x = dc.getWidth() / 2;
-			dc.drawBitmap(x - 31, getYOnCircle(x - 31, dc.getWidth() / 2) - 17, icons[0]);
-			dc.drawBitmap(x - 17, getYOnCircle(x - 17, dc.getWidth() / 2) - 17, icons[1]);
-			dc.drawBitmap(x + 2, getYOnCircle(x + 2, dc.getWidth() / 2) - 17, icons[2]);
-			dc.drawBitmap(x + 19, getYOnCircle(x + 19, dc.getWidth() / 2) - 17, icons[3]);
+			if (isSemiRound) {x += 36;}
+			dc.drawBitmap(x - 36, getY(x - 36, dc.getHeight() / 2) - 17, icons[0]);
+			dc.drawBitmap(x - 17, getY(x - 2, dc.getHeight() / 2) - 17, icons[1]);
+			dc.drawBitmap(x + 2, getY(x + 2, dc.getHeight() / 2) - 17, icons[2]);
+			dc.drawBitmap(x + 21, getY(x + 36, dc.getHeight() / 2) - 17, icons[3]);
 			
 		}
 	
 	}
 	
-	function getYOnCircle(x, radius) {
+	function getY(x, radius) {
+		if (isSemiRound) {return (_dc.getHeight() - bigFontHeight) / 2 + 17 + smallFontHeight / 2 - 8;} // 5 + 17 (original)
 		x = x - radius;
 		var y = Math.sqrt((radius * radius) - (x * x));
 		return y + radius;

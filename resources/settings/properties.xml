@@ -11,5 +11,7 @@
 	
 	<property id="UpperRightComplication" type="number">0</property>
 	<property id="BigComplication" type="number">0</property>
+	
+	<property id="SemiRoundDisplay" type="boolean">false</property>
 
 </properties>

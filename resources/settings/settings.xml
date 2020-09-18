@@ -52,6 +52,10 @@
         </settingConfig>
     </setting>
     
+    <setting propertyKey="@Properties.SemiRoundDisplay" title="@Strings.SemiRoundDisplayTitle">
+    	<settingConfig type="boolean"/>
+    </setting>
+    
     <!--  <setting propertyKey="@Properties.UpperRightComplication" title="@Strings.UpperRightComplicationTitle">
     	<settingConfig type="list">
     		<listEntry value="0">@Strings.ComplicationEmpty</listEntry>
