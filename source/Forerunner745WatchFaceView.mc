@@ -11,6 +11,7 @@ using Toybox.ActivityMonitor;
 class Forerunner745WatchFaceView extends WatchUi.WatchFace {
 
 	var bigFont = WatchUi.loadResource(Rez.Fonts.big_filled_font);
+	var activityInfo = ActivityMonitor.getInfo();
 
     function initialize() {
         WatchFace.initialize();
@@ -37,26 +38,75 @@ class Forerunner745WatchFaceView extends WatchUi.WatchFace {
     	var minutesLabel = View.findDrawableById("minutesLabel");
     	var secondsLabel = View.findDrawableById("secondsLabel");
     	TimeText.drawTime(dc, hourLabel, minutesLabel, secondsLabel);
-    	
-    	
-    	// Display date
-        var dateLabel = View.findDrawableById("dateLabel");
-        DateText.drawDate(dc, dateLabel);
         
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
         
         // Display big complication
-        // 0: Weekly active minutes
-        // 1: Daily steps/goal
-        // 2: Daily burned calories/goal
+        // 0: Empty
+        // 1: Weekly active minutes
+        // 2: Daily steps/goal
+        // 3: Daily burned ca && lories/goal
+        // 4: Floors climbed/goal
         var bigComplication = Application.getApp().getProperty("BigComplication");
-        if (bigComplication == 0) {
+        if (bigComplication == 1 && activityInfo has :activeMinutesWeek) {
         	IntensityMinutesBar.drawBar(dc);
-        } else if (bigComplication == 1) {
-        	StepsBar.drawBar(dc);
         } else if (bigComplication == 2) {
+        	StepsBar.drawBar(dc);
+        } else if (bigComplication == 3) {
         	CaloriesBar.drawBar(dc);
+        } else if (bigComplication == 4 && activityInfo has :floorsClimbed) {
+        	FloorsBar.drawBar(dc);
+        }
+        
+        // Display left complicatoin
+        // 0: Empty
+        // 1: Date
+        // 2: HR
+        // 3: Todays distance
+        // 4: Status icons
+        // 5: Notification count
+        // 6: Floors climbed
+        // 7: Battery
+        var leftComplication = Application.getApp().getProperty("LeftComplication");
+        if (leftComplication == 1) {
+        	DateText.drawDate(dc, 0);
+        } else if (leftComplication == 2 && ActivityMonitor has :HeartRateIterator) {
+        	HRText.drawHR(dc, 0);
+        } else if (leftComplication == 3) {
+        	DistanceText.drawDistance(dc, 0);
+        } else if (leftComplication == 3) {
+        	DistanceText.drawDistance(dc, 0);
+        } else if (leftComplication == 5) {
+        	NotificationsText.drawNotifications(dc, 0);
+        } else if (leftComplication == 6 && ActivityMonitor.getInfo() has :floorsClimbed) {
+        	FloorsText.drawFloors(dc, 0);
+        } else if (leftComplication == 7) {
+        	BatteryText.drawBattery(dc, 0);
+        }
+        
+        // Display right complicatoin
+        // 0: Empty
+        // 1: Date
+        // 2: HR
+        // 3: Todays distance
+ 		// 4: Status icons
+ 		// 5: Notification count
+ 		// 6: Floors climbed
+ 		// 7: Battery
+        var rightComplication = Application.getApp().getProperty("RightComplication");
+        if (rightComplication == 1) {
+        	DateText.drawDate(dc, 1);
+        } else if (rightComplication == 2 && ActivityMonitor has :HeartRateIterator) {
+        	HRText.drawHR(dc, 1);
+        } else if (rightComplication == 3) {
+        	DistanceText.drawDistance(dc, 1);
+        } else if (rightComplication == 5) {
+        	NotificationsText.drawNotifications(dc, 1);
+        } else if (rightComplication == 6 && ActivityMonitor.getInfo() has :floorsClimbed) {
+        	FloorsText.drawFloors(dc, 1);
+        } else if (rightComplication == 7) {
+        	BatteryText.drawBattery(dc, 1);
         }
         
         // Display status icons

@@ -9,8 +9,10 @@
 	
 	<property id="AccentColor" type="number">0x00FF00</property> <!-- 0x00FF00 -->
 	
-	<property id="BigComplication" type="number">0</property> <!-- false -->
+	<property id="BigComplication" type="number">1</property> <!-- 1 -->
+	<property id="LeftComplication" type="number">1</property> <!-- 1 -->
+	<property id="RightComplication" type="number">0</property> <!-- 0 -->
 	
-	<property id="SemiRoundDisplay" type="boolean">false</property> <!-- false -->
-
+	<property id="AccentColorComplication" type="boolean">true</property> <!-- true -->
+	
 </properties>

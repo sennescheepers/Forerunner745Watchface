@@ -11,8 +11,12 @@ using Toybox.Application;
 module DateText {
 
 	var bigFont = WatchUi.loadResource(Rez.Fonts.big_filled_font);
+	var font = WatchUi.loadResource(Rez.Fonts.complication_font);
+	
+	var dateLocX;
+	var dateLocY;
 
-	function drawDate(dc, dateLabel) {
+	function drawDate(dc, position) {
 	
 		// Get the date
        	var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
@@ -20,15 +24,17 @@ module DateText {
        	
        	// Calculate position
        	var bigFontHeight = dc.getFontHeight(bigFont);
-       	var dateTextWidth = dc.getTextWidthInPixels(dateString, Graphics.FONT_SMALL);
-       	var dateLocX = dc.getWidth() / 2 - dateTextWidth - 10;
-       	var dateLocY = (dc.getHeight() - bigFontHeight) / 2 - 5;
+       	var dateTextWidth = dc.getTextWidthInPixels(dateString, font);
+       	if (position == 0) {// Left
+       		dateLocX = dc.getWidth() / 2 - dateTextWidth - 10;
+       	} else { // Right
+       		dateLocX = dc.getWidth() / 2 + 10;
+       	}
+       	dateLocY = (dc.getHeight() - bigFontHeight) / 2 - 5;
        	
        	// Set date text
-       	dateLabel.setColor(Graphics.COLOR_WHITE);
-       	dateLabel.setFont(Graphics.FONT_SMALL);
-       	dateLabel.setText(dateString);
-       	dateLabel.setLocation(dateLocX, dateLocY);
+       	dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
+       	dc.drawText(dateLocX, dateLocY, font, dateString, Graphics.TEXT_JUSTIFY_LEFT);
 	
 	}
 

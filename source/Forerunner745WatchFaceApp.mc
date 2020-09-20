@@ -3,6 +3,8 @@ using Toybox.WatchUi;
 
 class Forerunner745WatchFaceApp extends Application.AppBase {
 
+	var view;
+
     function initialize() {
         AppBase.initialize();
     }
@@ -17,7 +19,9 @@ class Forerunner745WatchFaceApp extends Application.AppBase {
 
     // Return the initial view of your application here
     function getInitialView() {
-        return [ new Forerunner745WatchFaceView() ];
+        view = new Forerunner745WatchFaceView();
+        onSettingsChanged();
+        return [view];
     }
 
     // New app settings have been received so trigger a UI update

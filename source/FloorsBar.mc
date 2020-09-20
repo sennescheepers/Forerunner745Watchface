@@ -8,7 +8,7 @@ using Toybox.ActivityMonitor;
 using Toybox.Math;
 using Toybox.Application;
 
-module IntensityMinutesBar {
+module FloorsBar {
 
 	var maxWidth;
 	var fillWidth;
@@ -16,7 +16,7 @@ module IntensityMinutesBar {
 	var accentColor;
 
 	function drawBar(dc) {
-		
+	
 		accentColor = Application.getApp().getProperty("AccentColor");
 		
 		// Calculate position
@@ -26,9 +26,10 @@ module IntensityMinutesBar {
 		
 		// Calculate percentage
 		var activityInfo = ActivityMonitor.getInfo();
-		var activeMinutes = activityInfo.activeMinutesWeek.total.toFloat();
-		var goal = activityInfo.activeMinutesWeekGoal.toFloat();
-		var percentage = activeMinutes / goal;
+		var activityHistory = ActivityMonitor.getHistory();
+		var currentFloors = activityInfo.floorsClimbed.toFloat();
+		var goal = activityInfo.floorsClimbedGoal.toFloat();
+		var percentage = currentFloors / goal;
 		percentage = (percentage >= 1) ? 1 : percentage;
 		
 		// Draw background bar
@@ -66,12 +67,12 @@ module IntensityMinutesBar {
 		// Draw text
 		var font = WatchUi.loadResource(Rez.Fonts.accent_font);
 		var smallFontHeight = dc.getFontHeight(font);
-		var activeMinutesString = Lang.format("7d Active Min. $1$", [activeMinutes.toNumber()]);
-		var textWidth = dc.getTextWidthInPixels(activeMinutesString, font);
+		var floorsString = Lang.format("Fl. climbed $1$/$2$", [currentFloors.toNumber(), goal.toNumber()]);
+		var textWidth = dc.getTextWidthInPixels(floorsString, font);
 		var textLocX = dc.getWidth() / 2;
 		var textLocY = barLocY + 9;
 		dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
-		dc.drawText(textLocX, textLocY, font, activeMinutesString, Graphics.TEXT_JUSTIFY_CENTER);
+		dc.drawText(textLocX, textLocY, font, floorsString, Graphics.TEXT_JUSTIFY_CENTER);
 	}
 
 }

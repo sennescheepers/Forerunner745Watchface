@@ -13,9 +13,11 @@ module CaloriesBar {
 	var maxWidth;
 	var fillWidth;
 	var bigFont = WatchUi.loadResource(Rez.Fonts.big_filled_font);
-	var accentColor = Application.getApp().getProperty("AccentColor");
+	var accentColor;
 
 	function drawBar(dc) {
+	
+		accentColor = Application.getApp().getProperty("AccentColor");
 		
 		// Calculate position
 		maxWidth = dc.getWidth() * 0.7;

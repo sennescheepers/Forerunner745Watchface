@@ -3,4 +3,6 @@
 	<font id="big_outline_font" filename="big_outline.fnt" filter="0123456789"/>
 	<font id="small_filled_font" filename="small_filled.fnt" filter="0123456789"/>
 	<font id="accent_font" filename="accent.fnt"/>
+	<font id="complication_font" filename="complication.fnt"/>
+	<font id="icon_font" filename="icon.fnt" filter="ABCDEFGHIJKL"/>
 </fonts>

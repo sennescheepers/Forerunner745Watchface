@@ -10,36 +10,59 @@ using Toybox.Application;
 
 module StatusIcons {
 
-	var isSemiRound = Application.getApp().getProperty("SemiRoundDisplay");
+	/*
+	*
+	* Shittiest code you'll ever see, please dont judge me.
+	*
+	*/
+
+	var left;
+	var right;
+
 	var _dc;
 	var bigFontHeight;
 	var smallFontHeight;
 	var bigFont = WatchUi.loadResource(Rez.Fonts.big_filled_font);
 	var smallFont = Graphics.FONT_SMALL;
-
-	var settings = System.getDeviceSettings();
-	var isConnected = settings.phoneConnected;
-	var alarmEnabled = settings.alarmCount > 0;
-	var doNotDisturb = settings.doNotDisturb;
-	var notificationCount = settings.notificationCount;
+	var iconFont = WatchUi.loadResource(Rez.Fonts.icon_font);
+	var iconHeight;
 	
-	var phoneIcon = WatchUi.loadResource(Rez.Drawables.PhoneIcon);
-	var alarmIcon = WatchUi.loadResource(Rez.Drawables.AlarmIcon);
-	var notificationIcons = [WatchUi.loadResource(Rez.Drawables.OneNotificationIcon), WatchUi.loadResource(Rez.Drawables.TwoNotificationIcon), WatchUi.loadResource(Rez.Drawables.ThreeNotificationIcon),
-							WatchUi.loadResource(Rez.Drawables.FourNotificationIcon), WatchUi.loadResource(Rez.Drawables.FiveNotificationIcon), WatchUi.loadResource(Rez.Drawables.SixNotificationIcon),
-							WatchUi.loadResource(Rez.Drawables.SevenNotificationIcon), WatchUi.loadResource(Rez.Drawables.EightNotificationIcon), WatchUi.loadResource(Rez.Drawables.NineNotificationIcon),
-							WatchUi.loadResource(Rez.Drawables.MoreNotificationIcon)];
-	var doNotDisturbIcon = WatchUi.loadResource(Rez.Drawables.DoNotDisturbIcon);
+	var phoneIcon = "A";
+	var alarmIcon = "C";
+	var notificationIcon = "H";
+	var doNotDisturbIcon = "G";
 	
-	var icons = new [4];
+	var settings;
+	
+	var isConnected;
+	var alarmEnabled;
+	var doNotDisturb;
+	var notificationCount;
+	
+	var numberToDisplay;
+	var icons;
 
 	function drawIcons(dc) {
+	
+		dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
+	
+		left = Application.getApp().getProperty("LeftComplication") == 4;
+		right = Application.getApp().getProperty("RightComplication") == 4;
+	
+		settings = System.getDeviceSettings();
+	
+		isConnected = settings.phoneConnected;
+		alarmEnabled = settings.alarmCount > 0;
+		doNotDisturb = (settings has :doNotDisturb) ? settings.doNotDisturb : false;
+		notificationCount = settings.notificationCount;
+	
+		numberToDisplay = 0;
+		icons = new [4];
 	
 		_dc = dc;
 		bigFontHeight = dc.getFontHeight(bigFont);
 		smallFontHeight = dc.getFontHeight(smallFont);
-	
-		var numberToDisplay = 0;
+		iconHeight = dc.getFontHeight(iconFont);
 	
 		if (isConnected) {
 			icons[numberToDisplay] = phoneIcon;
@@ -54,45 +77,81 @@ module StatusIcons {
 			numberToDisplay++;
 		}
 		if (notificationCount > 0) {
-			icons[numberToDisplay] = notificationIcons[notificationCount - 1];
+			icons[numberToDisplay] = notificationIcon;
 			numberToDisplay++;
 		}
 		
-		if (numberToDisplay == 1) {
-			var x = dc.getWidth() / 2;
-			dc.drawBitmap(x - 7.5, getY(x - 7.5, dc.getHeight() / 2) - 17, icons[0]);
-		} else if (numberToDisplay == 2) {
+		var textWidths = new [icons.size()];
+			
+		// Get width of each icon
+		for (var i = 0; i < icons.size(); i++) {
+			if (icons[i] != null) {textWidths[i] = dc.getTextWidthInPixels(icons[i], iconFont);}
+		}
 		
+		if (left) {
+			// Draw icons
+			for (var i = 0; i < numberToDisplay; i++) {
+				// Get locX
+				var locX = dc.getWidth() / 2 - 10 - ((numberToDisplay - i) * 2);
+				for (var j = 0; j < numberToDisplay - i; j++) {
+					locX -= textWidths[j];
+				}
+				var locY = (dc.getHeight() - bigFontHeight) / 2 - 5;
+				
+				dc.drawText(locX, locY, iconFont, icons[i], Graphics.TEXT_JUSTIFY_LEFT);
+			}
+		}
+		
+		if (right) {
+			// Draw icons
+			for (var i = 0; i < numberToDisplay; i++) {
+				// Get locX
+				var locX = dc.getWidth() / 2 + 10 + (i * 2);
+				for (var j = 0; j < i; j++) {
+					locX += textWidths[j];
+				}
+				var locY = (dc.getHeight() - bigFontHeight) / 2 - 5;
+				
+				dc.drawText(locX, locY, iconFont, icons[i], Graphics.TEXT_JUSTIFY_LEFT);
+			}
+		
+		}
+		
+		if (left || right || System.getDeviceSettings().screenHeight < 240) {return;}
+		
+		if (numberToDisplay == 1) {
+			var textWidth = dc.getTextWidthInPixels(icons[0], iconFont);
+			var x = dc.getWidth() / 2 - textWidth / 2;
+			dc.drawText(x, getY(x, dc.getHeight() / 2), iconFont, icons[0], Graphics.TEXT_JUSTIFY_LEFT);
+		} else if (numberToDisplay == 2) {
 			var x = dc.getWidth() / 2;
-			dc.drawBitmap(x - 17, getY(x - 2, dc.getHeight() / 2) - 17, icons[0]);
-			dc.drawBitmap(x + 2, getY(x + 2, dc.getHeight() / 2) - 15, icons[1]);
+			var iconWidths = [dc.getTextWidthInPixels(icons[0], iconFont), dc.getTextWidthInPixels(icons[1], iconFont)];
+			dc.drawText(x - iconWidths[0] - 2, getY(x - iconWidths[0] - 2, dc.getHeight() / 2), iconFont, icons[0], Graphics.TEXT_JUSTIFY_LEFT);
+			dc.drawText(x + 2, getY(x - iconWidths[0] - 2, dc.getHeight() / 2), iconFont, icons[1], Graphics.TEXT_JUSTIFY_LEFT);
 			
 		} else if (numberToDisplay == 3) {
+			var iconWidths = [dc.getTextWidthInPixels(icons[0], iconFont), dc.getTextWidthInPixels(icons[1], iconFont), dc.getTextWidthInPixels(icons[2], iconFont)];
+			var x = dc.getWidth() / 2 - iconWidths[0] / 2;
+			dc.drawText(x, getY(x, dc.getHeight() / 2), iconFont, icons[0], Graphics.TEXT_JUSTIFY_LEFT);
+			dc.drawText(x - iconWidths[1] - 2, getY(x - iconWidths[1] - 2, dc.getHeight() / 2), iconFont, icons[1], Graphics.TEXT_JUSTIFY_LEFT);
+			dc.drawText(x + 2 + iconWidths[0], getY(x - iconWidths[1] - 2, dc.getHeight() / 2), iconFont, icons[2], Graphics.TEXT_JUSTIFY_LEFT);
 			
+		} else if (numberToDisplay == 4) {	
 			var x = dc.getWidth() / 2;
-			if (isSemiRound) {x += 26.5;}
-			dc.drawBitmap(x - 7.5, getY(x - 7.5, dc.getHeight() / 2) - 17, icons[0]);
-			dc.drawBitmap(x - 26.5, getY(x - 26.5, dc.getHeight() / 2) - 17, icons[1]);
-			dc.drawBitmap(x + 11.5, getY(x + 26.5, dc.getHeight() / 2) - 17, icons[2]);
-			
-		} else if (numberToDisplay == 4) {
-			
-			var x = dc.getWidth() / 2;
-			if (isSemiRound) {x += 36;}
-			dc.drawBitmap(x - 36, getY(x - 36, dc.getHeight() / 2) - 17, icons[0]);
-			dc.drawBitmap(x - 17, getY(x - 2, dc.getHeight() / 2) - 17, icons[1]);
-			dc.drawBitmap(x + 2, getY(x + 2, dc.getHeight() / 2) - 17, icons[2]);
-			dc.drawBitmap(x + 21, getY(x + 36, dc.getHeight() / 2) - 17, icons[3]);
+			var iconWidths = [dc.getTextWidthInPixels(icons[0], iconFont), dc.getTextWidthInPixels(icons[1], iconFont), dc.getTextWidthInPixels(icons[2], iconFont), dc.getTextWidthInPixels(icons[3], iconFont)];
+			dc.drawText(x - iconWidths[0] - iconWidths[1] - 4, getY(x - iconWidths[0] - iconWidths[1] - 4, dc.getHeight() / 2), iconFont, icons[0], Graphics.TEXT_JUSTIFY_LEFT);
+			dc.drawText(x - iconWidths[1] - 2, getY(x - iconWidths[1] - 2, dc.getHeight() / 2), iconFont, icons[1], Graphics.TEXT_JUSTIFY_LEFT);
+			dc.drawText(x + 2, getY(x - iconWidths[1] - 2, dc.getHeight() / 2), iconFont, icons[2], Graphics.TEXT_JUSTIFY_LEFT);
+			dc.drawText(x + 4 + iconWidths[2], getY(x - iconWidths[0] - iconWidths[1] - 4, dc.getHeight() / 2), iconFont, icons[3], Graphics.TEXT_JUSTIFY_LEFT);
 			
 		}
 	
 	}
 	
 	function getY(x, radius) {
-		if (isSemiRound) {return (_dc.getHeight() - bigFontHeight) / 2 + 17 + smallFontHeight / 2 - 8;} // 5 + 17 (original)
 		x = x - radius;
 		var y = Math.sqrt((radius * radius) - (x * x));
-		return y + radius;
+		return y + radius - iconHeight;
 	}
 
 }

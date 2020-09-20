@@ -46,13 +46,41 @@
     
     <setting propertyKey="@Properties.BigComplication" title="@Strings.BigComplicationTitle">
         <settingConfig type="list">
-            <listEntry value="0">@Strings.ComplicationActiveMinutesBar</listEntry>
-            <listEntry value="1">@Strings.ComplicationStepsBar</listEntry>
-            <listEntry value="2">@Strings.ComplicationCaloriesBurnedBar</listEntry>
+        	<listEntry value="0">@Strings.ComplicationEmpty</listEntry>
+            <listEntry value="1">@Strings.ComplicationActiveMinutesBar</listEntry>
+            <listEntry value="2">@Strings.ComplicationStepsBar</listEntry>
+            <listEntry value="3">@Strings.ComplicationCaloriesBurnedBar</listEntry>
+            <listEntry value="4">@Strings.ComplicationFloorsClimbedBar</listEntry>
         </settingConfig>
     </setting>
     
-    <setting propertyKey="@Properties.SemiRoundDisplay" title="@Strings.SemiRoundDisplayTitle">
+    <setting propertyKey="@Properties.LeftComplication" title="@Strings.LeftComplicationTitle">
+    	<settingConfig type="list">
+    		<listEntry value="0">@Strings.ComplicationEmpty</listEntry>
+    		<listEntry value="1">@Strings.ComplicationDate</listEntry>
+    		<!-- <listEntry value="2">@Strings.ComplicationHeartRate</listEntry> pretty big lag... -->
+    		<listEntry value="3">@Strings.ComplicationDistance</listEntry>
+    		<listEntry value="4">@Strings.ComplicationStatusIcons</listEntry>
+    		<listEntry value="5">@Strings.ComplicationNotificationCount</listEntry>
+    		<listEntry value="6">@Strings.ComplicationFloorsClimbed</listEntry>
+    		<listEntry value="7">@Strings.ComplicationBattery</listEntry>
+    	</settingConfig>
+    </setting>
+    
+    <setting propertyKey="@Properties.RightComplication" title="@Strings.RightComplicationTitle">
+    	<settingConfig type="list">
+    		<listEntry value="0">@Strings.ComplicationEmpty</listEntry>
+    		<listEntry value="1">@Strings.ComplicationDate</listEntry>
+    		<!-- <listEntry value="2">@Strings.ComplicationHeartRate</listEntry> pretty big lag... -->
+    		<listEntry value="3">@Strings.ComplicationDistance</listEntry>
+    		<listEntry value="4">@Strings.ComplicationStatusIcons</listEntry>
+    		<listEntry value="5">@Strings.ComplicationNotificationCount</listEntry>
+    		<listEntry value="6">@Strings.ComplicationFloorsClimbed</listEntry>
+    		<listEntry value="7">@Strings.ComplicationBattery</listEntry>
+    	</settingConfig>
+    </setting>
+    
+    <setting propertyKey="@Properties.AccentColorComplication" title="@Strings.AccentColorComplicationTitle">
     	<settingConfig type="boolean"/>
     </setting>
 

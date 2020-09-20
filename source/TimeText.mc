@@ -26,14 +26,21 @@ module TimeText {
 	var bigOutlineFont = WatchUi.loadResource(Rez.Fonts.big_outline_font);
 	var smallFilledFont = WatchUi.loadResource(Rez.Fonts.small_filled_font);
 	
-	var hourColor = Application.getApp().getProperty("HourColor");
-	var minutesColor = Application.getApp().getProperty("MinutesColor");
-	var secondsColor = Application.getApp().getProperty("SecondsColor");
-	var hourFilled = Application.getApp().getProperty("HourFilled");
-	var minutesFilled = Application.getApp().getProperty("MinutesFilled");
-	var displaySeconds = Application.getApp().getProperty("DisplaySeconds");
+	var hourColor;
+	var minutesColor;
+	var secondsColor;
+	var hourFilled;
+	var minutesFilled;
+	var displaySeconds;
 	
 	function drawTime(dc, hourLabel, minutesLabel, secondsLabel) {
+	
+		hourColor = Application.getApp().getProperty("HourColor");
+		minutesColor = Application.getApp().getProperty("MinutesColor");
+		secondsColor = Application.getApp().getProperty("SecondsColor");
+		hourFilled = Application.getApp().getProperty("HourFilled");
+		minutesFilled = Application.getApp().getProperty("MinutesFilled");
+		displaySeconds = Application.getApp().getProperty("DisplaySeconds");
 		
 		// Deciding fonts
 		if (hourFilled) {
@@ -54,7 +61,7 @@ module TimeText {
 		var moment = Gregorian.info(time, Time.FORMAT_LONG);
 		var hourString = moment.hour.format("%02d");
 		var minutesString = moment.min.format("%02d");
-		var secondsString = (displaySeconds && !lowPower) ? moment.sec.format("%02d") : "";
+		var secondsString = (displaySeconds && !lowPower && System.getDeviceSettings().screenWidth >= 240) ? moment.sec.format("%02d") : "";
 		
 		// Getting text widths and heights
 		textWidthHour = dc.getTextWidthInPixels(hourString, hourFont);
