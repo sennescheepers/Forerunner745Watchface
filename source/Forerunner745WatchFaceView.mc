@@ -29,11 +29,11 @@ class Forerunner745WatchFaceView extends WatchUi.WatchFace {
 
     // Update the view
     function onUpdate(dc) {
-    	dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_BLACK);
-    	dc.clear();
-    	
     	// Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
+    
+    	dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_BLACK);
+    	dc.clear();
     
     	// Display time
     	TimeText.drawTime(dc);

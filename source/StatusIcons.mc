@@ -118,17 +118,17 @@ module StatusIcons {
 		if (left || right || System.getDeviceSettings().screenHeight < 240) {return;}
 		
 		if (numberToDisplay == 1) {
-			var textWidth = dc.getTextWidthInPixels(icons[0], iconFont);
+			var textWidth = dc.getTextWidthInPixels(icons[0], Fonts.iconFont);
 			var x = dc.getWidth() / 2 - textWidth / 2;
 			dc.drawText(x, getY(x, dc.getHeight() / 2), Fonts.iconFont, icons[0], Graphics.TEXT_JUSTIFY_LEFT);
 		} else if (numberToDisplay == 2) {
 			var x = dc.getWidth() / 2;
-			var iconWidths = [dc.getTextWidthInPixels(icons[0], iconFont), dc.getTextWidthInPixels(icons[1], iconFont)];
+			var iconWidths = [dc.getTextWidthInPixels(icons[0], Fonts.iconFont), dc.getTextWidthInPixels(icons[1], Fonts.iconFont)];
 			dc.drawText(x - iconWidths[0] - 2, getY(x - iconWidths[0] - 2, dc.getHeight() / 2), Fonts.iconFont, icons[0], Graphics.TEXT_JUSTIFY_LEFT);
 			dc.drawText(x + 2, getY(x - iconWidths[0] - 2, dc.getHeight() / 2), Fonts.iconFont, icons[1], Graphics.TEXT_JUSTIFY_LEFT);
 			
 		} else if (numberToDisplay == 3) {
-			var iconWidths = [dc.getTextWidthInPixels(icons[0], Fonts.iconFont), dc.getTextWidthInPixels(icons[1], Fonts.iconFont), dc.getTextWidthInPixels(icons[2], iconFont)];
+			var iconWidths = [dc.getTextWidthInPixels(icons[0], Fonts.iconFont), dc.getTextWidthInPixels(icons[1], Fonts.iconFont), dc.getTextWidthInPixels(icons[2], Fonts.iconFont)];
 			var x = dc.getWidth() / 2 - iconWidths[0] / 2;
 			dc.drawText(x, getY(x, dc.getHeight() / 2), Fonts.iconFont, icons[0], Graphics.TEXT_JUSTIFY_LEFT);
 			dc.drawText(x - iconWidths[1] - 2, getY(x - iconWidths[1] - 2, dc.getHeight() / 2), Fonts.iconFont, icons[1], Graphics.TEXT_JUSTIFY_LEFT);

@@ -42,8 +42,6 @@ module TimeText {
 		minutesFilled = Application.getApp().getProperty("MinutesFilled");
 		displaySeconds = Application.getApp().getProperty("DisplaySeconds");
 		
-		secondsFont = Fonts.smallFilledFont;
-		
 		// Get the time information
 		var moment = Gregorian.info(Time.now(), Time.FORMAT_LONG);
 		var hourString = moment.hour.format("%02d");
