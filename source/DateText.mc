@@ -10,8 +10,8 @@ using Toybox.Application;
 
 module DateText {
 
-	var bigFont = WatchUi.loadResource(Rez.Fonts.big_filled_font);
-	var font = WatchUi.loadResource(Rez.Fonts.complication_font);
+	//var bigFont = WatchUi.loadResource(Rez.Fonts.big_filled_font);
+	//var font = WatchUi.loadResource(Rez.Fonts.complication_font);
 	
 	var dateLocX;
 	var dateLocY;
@@ -23,8 +23,8 @@ module DateText {
        	var dateString = Lang.format("$1$ $2$", [today.day_of_week, today.day]);
        	
        	// Calculate position
-       	var bigFontHeight = dc.getFontHeight(bigFont);
-       	var dateTextWidth = dc.getTextWidthInPixels(dateString, font);
+       	var bigFontHeight = dc.getFontHeight(Fonts.bigFilledFont);
+       	var dateTextWidth = dc.getTextWidthInPixels(dateString, Fonts.complicationFont);
        	if (position == 0) {// Left
        		dateLocX = dc.getWidth() / 2 - dateTextWidth - 10;
        	} else { // Right
@@ -34,7 +34,7 @@ module DateText {
        	
        	// Set date text
        	dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
-       	dc.drawText(dateLocX, dateLocY, font, dateString, Graphics.TEXT_JUSTIFY_LEFT);
+       	dc.drawText(dateLocX, dateLocY, Fonts.complicationFont, dateString, Graphics.TEXT_JUSTIFY_LEFT);
 	
 	}
 

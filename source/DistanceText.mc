@@ -10,9 +10,9 @@ using Toybox.Application;
 
 module DistanceText {
 
-	var bigFont = WatchUi.loadResource(Rez.Fonts.big_filled_font);
-	var font = WatchUi.loadResource(Rez.Fonts.complication_font);
-	var iconFont = WatchUi.loadResource(Rez.Fonts.icon_font);
+	//var bigFont = WatchUi.loadResource(Rez.Fonts.big_filled_font);
+	//var font = WatchUi.loadResource(Rez.Fonts.complication_font);
+	//var iconFont = WatchUi.loadResource(Rez.Fonts.icon_font);
 	var accentColor;
 	var useAccentColor;
 	
@@ -40,9 +40,9 @@ module DistanceText {
 		var distanceString = Lang.format("$1$$2$", [distance, unit]);
        	
        	// Calculate position
-       	var bigFontHeight = dc.getFontHeight(bigFont);
-       	var distanceTextWidth = dc.getTextWidthInPixels(distanceString, font);
-       	iconWidth = dc.getTextWidthInPixels(icon, iconFont);
+       	var bigFontHeight = dc.getFontHeight(Fonts.bigFilledFont);
+       	var distanceTextWidth = dc.getTextWidthInPixels(distanceString, Fonts.complicationFont);
+       	iconWidth = dc.getTextWidthInPixels(icon, Fonts.iconFont);
        	if (position == 0) {// Left
        		distanceLocX = dc.getWidth() / 2 - distanceTextWidth - iconWidth - 10;
        	} else { // Right
@@ -52,9 +52,9 @@ module DistanceText {
        	
        	// Set date text
        	dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
-       	dc.drawText(distanceLocX + 5 + iconWidth, distanceLocY, font, distanceString, Graphics.TEXT_JUSTIFY_LEFT);
+       	dc.drawText(distanceLocX + 5 + iconWidth, distanceLocY, Fonts.complicationFont, distanceString, Graphics.TEXT_JUSTIFY_LEFT);
        	dc.setColor(accentColor, Graphics.COLOR_BLACK);
-       	dc.drawText(distanceLocX, distanceLocY, iconFont, icon, Graphics.TEXT_JUSTIFY_LEFT);
+       	dc.drawText(distanceLocX, distanceLocY, Fonts.iconFont, icon, Graphics.TEXT_JUSTIFY_LEFT);
 	
 	}
 

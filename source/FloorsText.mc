@@ -10,9 +10,9 @@ using Toybox.Application;
 
 module FloorsText {
 
-	var bigFont = WatchUi.loadResource(Rez.Fonts.big_filled_font);
-	var font = WatchUi.loadResource(Rez.Fonts.complication_font);
-	var iconFont = WatchUi.loadResource(Rez.Fonts.icon_font);
+	//var bigFont = WatchUi.loadResource(Rez.Fonts.big_filled_font);
+	//var font = WatchUi.loadResource(Rez.Fonts.complication_font);
+	//var iconFont = WatchUi.loadResource(Rez.Fonts.icon_font);
 	var accentColor;
 	var useAccentColor;
 	
@@ -33,9 +33,9 @@ module FloorsText {
 		floorsString = Lang.format("$1$", [ActivityMonitor.getInfo().floorsClimbed]);
        	
        	// Calculate position
-       	var bigFontHeight = dc.getFontHeight(bigFont);
-       	var floorsTextWidth = dc.getTextWidthInPixels(floorsString, font);
-       	iconWidth = dc.getTextWidthInPixels(icon, iconFont);
+       	var bigFontHeight = dc.getFontHeight(Fonts.bigFilledFont);
+       	var floorsTextWidth = dc.getTextWidthInPixels(floorsString, Fonts.complicationFont);
+       	iconWidth = dc.getTextWidthInPixels(icon, Fonts.iconFont);
        	if (position == 0) {// Left
        		LocX = dc.getWidth() / 2 - floorsTextWidth - iconWidth - 10;
        	} else { // Right
@@ -45,9 +45,9 @@ module FloorsText {
        	
        	// Set date text
        	dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
-       	dc.drawText(LocX + 5 + iconWidth, LocY, font, floorsString, Graphics.TEXT_JUSTIFY_LEFT);
+       	dc.drawText(LocX + 5 + iconWidth, LocY, Fonts.complicationFont, floorsString, Graphics.TEXT_JUSTIFY_LEFT);
        	dc.setColor(accentColor, Graphics.COLOR_BLACK);
-       	dc.drawText(LocX, LocY, iconFont, icon, Graphics.TEXT_JUSTIFY_LEFT);
+       	dc.drawText(LocX, LocY, Fonts.iconFont, icon, Graphics.TEXT_JUSTIFY_LEFT);
 	
 	}
 

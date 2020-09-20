@@ -12,7 +12,7 @@ module StepsBar {
 
 	var maxWidth;
 	var fillWidth;
-	var bigFont = WatchUi.loadResource(Rez.Fonts.big_filled_font);
+	//var bigFont = WatchUi.loadResource(Rez.Fonts.big_filled_font);
 	var accentColor;
 
 	function drawBar(dc) {
@@ -22,7 +22,7 @@ module StepsBar {
 		// Calculate position
 		maxWidth = dc.getWidth() * 0.7;
 		var barLocX = (dc.getWidth() - maxWidth) / 2;
-		var barLocY = (dc.getHeight() + dc.getFontHeight(bigFont)) / 2 - 20;
+		var barLocY = (dc.getHeight() + dc.getFontHeight(Fonts.bigFilledFont)) / 2 - 20;
 		
 		// Calculate percentage
 		var activityInfo = ActivityMonitor.getInfo();
@@ -64,14 +64,13 @@ module StepsBar {
 		]);
 		
 		// Draw text
-		var font = WatchUi.loadResource(Rez.Fonts.accent_font);
-		var smallFontHeight = dc.getFontHeight(font);
+		var smallFontHeight = dc.getFontHeight(Fonts.accentFont);
 		var stepsString = Lang.format("Steps $1$/$2$", [currentSteps.toNumber(), goal.toNumber()]);
-		var textWidth = dc.getTextWidthInPixels(stepsString, font);
+		var textWidth = dc.getTextWidthInPixels(stepsString, Fonts.accentFont);
 		var textLocX = dc.getWidth() / 2;
 		var textLocY = barLocY + 9;
 		dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
-		dc.drawText(textLocX, textLocY, font, stepsString, Graphics.TEXT_JUSTIFY_CENTER);
+		dc.drawText(textLocX, textLocY, Fonts.accentFont, stepsString, Graphics.TEXT_JUSTIFY_CENTER);
 	}
 
 }

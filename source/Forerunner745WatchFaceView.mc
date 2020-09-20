@@ -10,7 +10,6 @@ using Toybox.ActivityMonitor;
 
 class Forerunner745WatchFaceView extends WatchUi.WatchFace {
 
-	var bigFont = WatchUi.loadResource(Rez.Fonts.big_filled_font);
 	var activityInfo = ActivityMonitor.getInfo();
 
     function initialize() {
@@ -32,15 +31,12 @@ class Forerunner745WatchFaceView extends WatchUi.WatchFace {
     function onUpdate(dc) {
     	dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_BLACK);
     	dc.clear();
+    	
+    	// Call the parent onUpdate function to redraw the layout
+        View.onUpdate(dc);
     
     	// Display time
-    	var hourLabel = View.findDrawableById("hourLabel");
-    	var minutesLabel = View.findDrawableById("minutesLabel");
-    	var secondsLabel = View.findDrawableById("secondsLabel");
-    	TimeText.drawTime(dc, hourLabel, minutesLabel, secondsLabel);
-        
-        // Call the parent onUpdate function to redraw the layout
-        View.onUpdate(dc);
+    	TimeText.drawTime(dc);
         
         // Display big complication
         // 0: Empty

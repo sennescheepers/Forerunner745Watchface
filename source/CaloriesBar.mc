@@ -12,7 +12,7 @@ module CaloriesBar {
 
 	var maxWidth;
 	var fillWidth;
-	var bigFont = WatchUi.loadResource(Rez.Fonts.big_filled_font);
+	//var bigFont = WatchUi.loadResource(Rez.Fonts.big_filled_font);
 	var accentColor;
 
 	function drawBar(dc) {
@@ -22,7 +22,7 @@ module CaloriesBar {
 		// Calculate position
 		maxWidth = dc.getWidth() * 0.7;
 		var barLocX = (dc.getWidth() - maxWidth) / 2;
-		var barLocY = (dc.getHeight() + dc.getFontHeight(bigFont)) / 2 - 20;
+		var barLocY = (dc.getHeight() + dc.getFontHeight(Fonts.bigFilledFont)) / 2 - 20;
 		
 		// Calculate percentage
 		var activityInfo = ActivityMonitor.getInfo();
@@ -72,14 +72,13 @@ module CaloriesBar {
 		]);
 		
 		// Draw text
-		var font = WatchUi.loadResource(Rez.Fonts.accent_font);
-		var smallFontHeight = dc.getFontHeight(font);
+		var smallFontHeight = dc.getFontHeight(Fonts.accentFont);
 		var caloriesString = Lang.format("Cal. burned $1$/$2$", [currentCalories.toNumber(), goal.toNumber()]);
-		var textWidth = dc.getTextWidthInPixels(caloriesString, font);
+		var textWidth = dc.getTextWidthInPixels(caloriesString, Fonts.accentFont);
 		var textLocX = dc.getWidth() / 2;
 		var textLocY = barLocY + 9;
 		dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
-		dc.drawText(textLocX, textLocY, font, caloriesString, Graphics.TEXT_JUSTIFY_CENTER);
+		dc.drawText(textLocX, textLocY, Fonts.accentFont, caloriesString, Graphics.TEXT_JUSTIFY_CENTER);
 	}
 
 }
