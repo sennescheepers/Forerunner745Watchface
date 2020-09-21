@@ -26,9 +26,6 @@ module NotificationsText {
 
 	function drawNotifications(dc, position) {
 	
-		useAccentColor = Application.getApp().getProperty("AccentColorComplication");
-		accentColor = (useAccentColor) ? Application.getApp().getProperty("AccentColor") : Graphics.COLOR_WHITE;
-	
 		// Get the notificationsCount
 		notificationsString = Lang.format("$1$", [System.getDeviceSettings().notificationCount.toNumber()]);
        	
@@ -49,6 +46,13 @@ module NotificationsText {
        	dc.setColor(accentColor, Graphics.COLOR_BLACK);
        	dc.drawText(LocX, LocY, Fonts.iconFont, icon, Graphics.TEXT_JUSTIFY_LEFT);
 	
+	}
+	
+	function setSettings() {
+	
+		useAccentColor = Application.getApp().getProperty("AccentColorComplication");
+		accentColor = (useAccentColor) ? Application.getApp().getProperty("AccentColor") : Graphics.COLOR_WHITE;
+		
 	}
 
 }

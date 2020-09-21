@@ -26,9 +26,6 @@ module FloorsText {
 
 	function drawFloors(dc, position) {
 	
-		useAccentColor = Application.getApp().getProperty("AccentColorComplication");
-		accentColor = (useAccentColor) ? Application.getApp().getProperty("AccentColor") : Graphics.COLOR_WHITE;
-	
 		// Get the notificationsCount
 		floorsString = Lang.format("$1$", [ActivityMonitor.getInfo().floorsClimbed]);
        	
@@ -48,6 +45,13 @@ module FloorsText {
        	dc.drawText(LocX + 5 + iconWidth, LocY, Fonts.complicationFont, floorsString, Graphics.TEXT_JUSTIFY_LEFT);
        	dc.setColor(accentColor, Graphics.COLOR_BLACK);
        	dc.drawText(LocX, LocY, Fonts.iconFont, icon, Graphics.TEXT_JUSTIFY_LEFT);
+	
+	}
+	
+	function setSettings() {
+	
+		useAccentColor = Application.getApp().getProperty("AccentColorComplication");
+		accentColor = (useAccentColor) ? Application.getApp().getProperty("AccentColor") : Graphics.COLOR_WHITE;
 	
 	}
 

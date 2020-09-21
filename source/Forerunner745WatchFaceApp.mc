@@ -26,6 +26,20 @@ class Forerunner745WatchFaceApp extends Application.AppBase {
 
     // New app settings have been received so trigger a UI update
     function onSettingsChanged() {
+    
+    	view.setSettings();
+    
+    	StatusIcons.setSettings();
+    	TimeText.setSettings();
+    	BatteryText.setSettings();
+    	CaloriesBar.setSettings();
+    	DistanceText.setSettings();
+    	FloorsBar.setSettings();
+    	FloorsText.setSettings();
+    	IntensityMinutesBar.setSettings();
+    	NotificationsText.setSettings();
+    	StepsBar.setSettings();
+    	
         WatchUi.requestUpdate();
     }
 

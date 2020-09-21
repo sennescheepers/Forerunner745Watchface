@@ -44,9 +44,6 @@ module StatusIcons {
 	
 		dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
 	
-		left = Application.getApp().getProperty("LeftComplication") == 4;
-		right = Application.getApp().getProperty("RightComplication") == 4;
-	
 		settings = System.getDeviceSettings();
 	
 		isConnected = settings.phoneConnected;
@@ -150,6 +147,13 @@ module StatusIcons {
 		x = x - radius;
 		var y = Math.sqrt((radius * radius) - (x * x));
 		return y + radius - iconHeight;
+	}
+	
+	function setSettings() {
+	
+		left = Application.getApp().getProperty("LeftComplication") == 4;
+		right = Application.getApp().getProperty("RightComplication") == 4;
+	
 	}
 
 }

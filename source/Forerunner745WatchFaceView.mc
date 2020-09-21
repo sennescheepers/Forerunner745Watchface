@@ -10,10 +10,31 @@ using Toybox.ActivityMonitor;
 
 class Forerunner745WatchFaceView extends WatchUi.WatchFace {
 
-	var activityInfo = ActivityMonitor.getInfo();
+	var hasHeartRateIterator = ActivityMonitor.getInfo() has :HeartRateIterator;
+	var hasFloorsClimbed = ActivityMonitor.getInfo() has :floorsClimbed;
+	var hasActiveMinutesWeek = ActivityMonitor.getInfo() has :activeMinutesWeek;
+	
+	var bigComplication;
+	var leftComplication;
+	var rightComplication;
 
     function initialize() {
         WatchFace.initialize();
+        
+        setSettings();
+        
+        // Setting up the settings variables, may save some computing power in the long run
+        StatusIcons.setSettings();
+        TimeText.setSettings();
+    	BatteryText.setSettings();
+    	CaloriesBar.setSettings();
+    	DistanceText.setSettings();
+    	FloorsBar.setSettings();
+    	FloorsText.setSettings();
+    	IntensityMinutesBar.setSettings();
+    	NotificationsText.setSettings();
+    	StepsBar.setSettings();
+    	
     }
 
     // Load your resources here
@@ -44,14 +65,13 @@ class Forerunner745WatchFaceView extends WatchUi.WatchFace {
         // 2: Daily steps/goal
         // 3: Daily burned ca && lories/goal
         // 4: Floors climbed/goal
-        var bigComplication = Application.getApp().getProperty("BigComplication");
-        if (bigComplication == 1 && activityInfo has :activeMinutesWeek) {
+        if (bigComplication == 1 && hasActiveMinutesWeek) {
         	IntensityMinutesBar.drawBar(dc);
         } else if (bigComplication == 2) {
         	StepsBar.drawBar(dc);
         } else if (bigComplication == 3) {
         	CaloriesBar.drawBar(dc);
-        } else if (bigComplication == 4 && activityInfo has :floorsClimbed) {
+        } else if (bigComplication == 4 && hasFloorsClimbed) {
         	FloorsBar.drawBar(dc);
         }
         
@@ -64,10 +84,9 @@ class Forerunner745WatchFaceView extends WatchUi.WatchFace {
         // 5: Notification count
         // 6: Floors climbed
         // 7: Battery
-        var leftComplication = Application.getApp().getProperty("LeftComplication");
         if (leftComplication == 1) {
         	DateText.drawDate(dc, 0);
-        } else if (leftComplication == 2 && ActivityMonitor has :HeartRateIterator) {
+        } else if (leftComplication == 2 && hasHeartRateIterator) {
         	HRText.drawHR(dc, 0);
         } else if (leftComplication == 3) {
         	DistanceText.drawDistance(dc, 0);
@@ -75,7 +94,7 @@ class Forerunner745WatchFaceView extends WatchUi.WatchFace {
         	DistanceText.drawDistance(dc, 0);
         } else if (leftComplication == 5) {
         	NotificationsText.drawNotifications(dc, 0);
-        } else if (leftComplication == 6 && ActivityMonitor.getInfo() has :floorsClimbed) {
+        } else if (leftComplication == 6 && hasFloorsClimbed) {
         	FloorsText.drawFloors(dc, 0);
         } else if (leftComplication == 7) {
         	BatteryText.drawBattery(dc, 0);
@@ -90,16 +109,15 @@ class Forerunner745WatchFaceView extends WatchUi.WatchFace {
  		// 5: Notification count
  		// 6: Floors climbed
  		// 7: Battery
-        var rightComplication = Application.getApp().getProperty("RightComplication");
         if (rightComplication == 1) {
         	DateText.drawDate(dc, 1);
-        } else if (rightComplication == 2 && ActivityMonitor has :HeartRateIterator) {
+        } else if (rightComplication == 2 && hasHeartRateIterator) {
         	HRText.drawHR(dc, 1);
         } else if (rightComplication == 3) {
         	DistanceText.drawDistance(dc, 1);
         } else if (rightComplication == 5) {
         	NotificationsText.drawNotifications(dc, 1);
-        } else if (rightComplication == 6 && ActivityMonitor.getInfo() has :floorsClimbed) {
+        } else if (rightComplication == 6 && hasFloorsClimbed) {
         	FloorsText.drawFloors(dc, 1);
         } else if (rightComplication == 7) {
         	BatteryText.drawBattery(dc, 1);
@@ -125,6 +143,14 @@ class Forerunner745WatchFaceView extends WatchUi.WatchFace {
     // Terminate any active timers and prepare for slow updates.
     function onEnterSleep() {
     	TimeText.lowPower = true;
+    }
+    
+    function setSettings() {
+    
+    	bigComplication = Application.getApp().getProperty("BigComplication");
+        leftComplication = Application.getApp().getProperty("LeftComplication");
+        rightComplication = Application.getApp().getProperty("RightComplication");
+    	
     }
 
 }

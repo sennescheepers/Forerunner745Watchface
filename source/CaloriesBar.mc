@@ -16,8 +16,6 @@ module CaloriesBar {
 	var accentColor;
 
 	function drawBar(dc) {
-	
-		accentColor = Application.getApp().getProperty("AccentColor");
 		
 		// Calculate position
 		maxWidth = dc.getWidth() * 0.7;
@@ -79,6 +77,13 @@ module CaloriesBar {
 		var textLocY = barLocY + 9;
 		dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
 		dc.drawText(textLocX, textLocY, Fonts.accentFont, caloriesString, Graphics.TEXT_JUSTIFY_CENTER);
+		
+	}
+	
+	function setSettings() {
+	
+		accentColor = Application.getApp().getProperty("AccentColor");
+	
 	}
 
 }

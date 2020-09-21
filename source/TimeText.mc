@@ -34,13 +34,6 @@ module TimeText {
 	var displaySeconds;
 	
 	function drawTime(dc) {
-	
-		hourColor = Application.getApp().getProperty("HourColor");
-		minutesColor = Application.getApp().getProperty("MinutesColor");
-		secondsColor = Application.getApp().getProperty("SecondsColor");
-		hourFilled = Application.getApp().getProperty("HourFilled");
-		minutesFilled = Application.getApp().getProperty("MinutesFilled");
-		displaySeconds = Application.getApp().getProperty("DisplaySeconds");
 		
 		// Get the time information
 		var moment = Gregorian.info(Time.now(), Time.FORMAT_LONG);
@@ -84,6 +77,17 @@ module TimeText {
 		dc.setColor(secondsColor, Graphics.COLOR_BLACK);
 		dc.drawText(secondsLocX, secondsLocY, Fonts.smallFilledFont, secondsString, Graphics.TEXT_JUSTIFY_LEFT);
 		
+	}
+	
+	function setSettings() {
+	
+		hourColor = Application.getApp().getProperty("HourColor");
+		minutesColor = Application.getApp().getProperty("MinutesColor");
+		secondsColor = Application.getApp().getProperty("SecondsColor");
+		hourFilled = Application.getApp().getProperty("HourFilled");
+		minutesFilled = Application.getApp().getProperty("MinutesFilled");
+		displaySeconds = Application.getApp().getProperty("DisplaySeconds");
+	
 	}
 	
 }

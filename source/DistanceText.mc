@@ -23,9 +23,6 @@ module DistanceText {
 	var distanceLocY;
 
 	function drawDistance(dc, position) {
-		
-		useAccentColor = Application.getApp().getProperty("AccentColorComplication");
-		accentColor = (useAccentColor) ? Application.getApp().getProperty("AccentColor") : Graphics.COLOR_WHITE;
 	
 		// Get the distance
 		var info = ActivityMonitor.getInfo();
@@ -56,6 +53,13 @@ module DistanceText {
        	dc.setColor(accentColor, Graphics.COLOR_BLACK);
        	dc.drawText(distanceLocX, distanceLocY, Fonts.iconFont, icon, Graphics.TEXT_JUSTIFY_LEFT);
 	
+	}
+	
+	function setSettings() {
+		
+		useAccentColor = Application.getApp().getProperty("AccentColorComplication");
+		accentColor = (useAccentColor) ? Application.getApp().getProperty("AccentColor") : Graphics.COLOR_WHITE;
+		
 	}
 
 }
