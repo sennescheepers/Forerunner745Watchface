@@ -54,7 +54,7 @@ This is my first Connect IQ watch face, please be kind and don't hesitate to lea
 * Added toggle for status icons in top right (for semi-round displays)
 * Fixed status icons positioning
 
-** 1.0.0: **
+**1.0.0:**
 * Initial deploy
 
 ## What's coming
