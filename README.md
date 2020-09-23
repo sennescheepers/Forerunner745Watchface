@@ -29,6 +29,9 @@ A replica of the default Garmin Forerunner 745 wathface.
 This is my first Connect IQ watch face, please be kind and don't hesitate to leave feedback or suggestions!
 
 ## What's new
+**1.2.4:**
+* Battery optimzation
+
 **1.2.3:**
 * Fixed status icons bug
 
@@ -61,6 +64,7 @@ This is my first Connect IQ watch face, please be kind and don't hesitate to lea
 * Move bar
 * Battery status icon
 * Manually selecting which status icons to show or hide
+* New datafields
 
 [picture1]: ./pictures/picture1.png "Watch face example 1"
 [picture2]: ./pictures/picture2.png "Watch face example 2"
