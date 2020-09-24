@@ -34,6 +34,8 @@ class Forerunner745WatchFaceView extends WatchUi.WatchFace {
     	IntensityMinutesBar.setSettings();
     	NotificationsText.setSettings();
     	StepsBar.setSettings();
+    	MoveBar.setSettings();
+    	StepsText.setSettings();
     	
     }
 
@@ -65,6 +67,7 @@ class Forerunner745WatchFaceView extends WatchUi.WatchFace {
         // 2: Daily steps/goal
         // 3: Daily burned ca && lories/goal
         // 4: Floors climbed/goal
+        // 5: Movebar
         if (bigComplication == 1 && hasActiveMinutesWeek) {
         	IntensityMinutesBar.drawBar(dc);
         } else if (bigComplication == 2) {
@@ -73,7 +76,9 @@ class Forerunner745WatchFaceView extends WatchUi.WatchFace {
         	CaloriesBar.drawBar(dc);
         } else if (bigComplication == 4 && hasFloorsClimbed) {
         	FloorsBar.drawBar(dc);
-        }
+        } /*else if (bigComplication == 5) {
+        	MoveBar.drawBar(dc);
+        }*/
         
         // Display left complicatoin
         // 0: Empty
@@ -84,6 +89,7 @@ class Forerunner745WatchFaceView extends WatchUi.WatchFace {
         // 5: Notification count
         // 6: Floors climbed
         // 7: Battery
+        // 8: Steps
         if (leftComplication == 1) {
         	DateText.drawDate(dc, 0);
         } else if (leftComplication == 2 && hasHeartRateIterator) {
@@ -98,6 +104,8 @@ class Forerunner745WatchFaceView extends WatchUi.WatchFace {
         	FloorsText.drawFloors(dc, 0);
         } else if (leftComplication == 7) {
         	BatteryText.drawBattery(dc, 0);
+        } else if (leftComplication == 8) {
+        	StepsText.drawText(dc, 0);
         }
         
         // Display right complicatoin
@@ -109,6 +117,7 @@ class Forerunner745WatchFaceView extends WatchUi.WatchFace {
  		// 5: Notification count
  		// 6: Floors climbed
  		// 7: Battery
+ 		// 8: Steps
         if (rightComplication == 1) {
         	DateText.drawDate(dc, 1);
         } else if (rightComplication == 2 && hasHeartRateIterator) {
@@ -121,6 +130,8 @@ class Forerunner745WatchFaceView extends WatchUi.WatchFace {
         	FloorsText.drawFloors(dc, 1);
         } else if (rightComplication == 7) {
         	BatteryText.drawBattery(dc, 1);
+        } else if (rightComplication == 8) {
+        	StepsText.drawText(dc, 1);
         }
         
         // Display status icons

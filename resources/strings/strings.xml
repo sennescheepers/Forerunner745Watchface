@@ -1,6 +1,9 @@
 <strings>
 
     <string id="AppName">Forerunner 745 Watchface</string>
+    
+    <string id="Use12HourTitle">Use 12 hour format</string>
+    <string id="ImperialTitle">Use imperial units</string>
 
     <string id="HourColorTitle">Hour digits color</string>
     <string id="MinutesColorTitle">Minutes digits color</string>
@@ -27,6 +30,8 @@
     <string id="ComplicationStepsBar">Daily steps goal bar</string>
     <string id="ComplicationCaloriesBurnedBar">Burned calories goal bar</string>
     <string id="ComplicationFloorsClimbedBar">Floors climbed goal bar</string>
+    <string id="ComplicationMoveBar">Move bar</string>
+    
     <string id="ComplicationDate">Date</string>
     <string id="ComplicationHeartRate">Heart rate</string>
     <string id="ComplicationDistance">Todays distance</string>
@@ -34,6 +39,7 @@
     <string id="ComplicationNotificationCount">Notification count</string>
     <string id="ComplicationFloorsClimbed">Floors climbed</string>
     <string id="ComplicationBattery">Battery</string>
+    <string id="ComplicationSteps">Steps</string>
     
     <string id="AccentColorComplicationTitle">Use accent color in complications</string>
     

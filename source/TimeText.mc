@@ -12,6 +12,8 @@ module TimeText {
 
 	var lowPower = false;
 	
+	var use12Hour;
+	
 	var textWidthHour;
 	var textWidthMinutes;
 	var textWidthSeconds;
@@ -37,7 +39,13 @@ module TimeText {
 		
 		// Get the time information
 		var moment = Gregorian.info(Time.now(), Time.FORMAT_LONG);
-		var hourString = moment.hour.format("%02d");
+		var hourString;
+		if (System.getDeviceSettings().is24Hour && !use12Hour) {
+			hourString = moment.hour.format("%02d");
+		} else {
+			hourString = (moment.hour > 12) ? moment.hour % 12 : moment.hour;
+			hourString = hourString.format("%02d");
+		}
 		var minutesString = moment.min.format("%02d");
 		var secondsString = (displaySeconds && !lowPower && System.getDeviceSettings().screenWidth >= 240) ? moment.sec.format("%02d") : "";
 		
@@ -87,6 +95,7 @@ module TimeText {
 		hourFilled = Application.getApp().getProperty("HourFilled");
 		minutesFilled = Application.getApp().getProperty("MinutesFilled");
 		displaySeconds = Application.getApp().getProperty("DisplaySeconds");
+		use12Hour = Application.getApp().getProperty("Use12Hour");
 	
 	}
 	

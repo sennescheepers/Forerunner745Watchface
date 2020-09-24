@@ -1,5 +1,8 @@
 <properties>
 
+	<property id="Use12Hour" type="boolean">false</property> <!-- false -->
+	<property id="Imperial" type="boolean">false</property> <!-- false -->
+
     <property id="HourColor" type="number">0xFFFFFF</property> <!-- 0xFFFFFF -->
 	<property id="MinutesColor" type="number">0xFFFFFF</property> <!-- 0xFFFFFF -->
 	<property id="SecondsColor" type="number">0xFFFFFF</property> <!-- 0xFFFFFF -->

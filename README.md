@@ -30,7 +30,7 @@ This is my first Connect IQ watch face, please be kind and don't hesitate to lea
 
 ## What's new
 **1.2.4:**
-* Battery optimzation
+* Battery optimization
 
 **1.2.3:**
 * Fixed status icons bug

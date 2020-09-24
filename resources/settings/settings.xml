@@ -1,5 +1,13 @@
 <settings>
 
+	<setting propertyKey="@Properties.Use12Hour" title="@Strings.Use12HourTitle">
+		<settingConfig type="boolean"/>
+	</setting>
+	
+	<setting propertyKey="@Properties.Imperial" title="@Strings.ImperialTitle">
+		<settingConfig type="boolean"/>
+	</setting>
+
     <setting propertyKey="@Properties.HourColor" title="@Strings.HourColorTitle">
         <settingConfig type="list">
             <listEntry value="0x00FF00">@Strings.ColorGreen</listEntry>
@@ -50,7 +58,7 @@
             <listEntry value="1">@Strings.ComplicationActiveMinutesBar</listEntry>
             <listEntry value="2">@Strings.ComplicationStepsBar</listEntry>
             <listEntry value="3">@Strings.ComplicationCaloriesBurnedBar</listEntry>
-            <listEntry value="4">@Strings.ComplicationFloorsClimbedBar</listEntry>
+            <!-- <listEntry value="5">@Strings.ComplicationMoveBar</listEntry> -->
         </settingConfig>
     </setting>
     
@@ -64,6 +72,7 @@
     		<listEntry value="5">@Strings.ComplicationNotificationCount</listEntry>
     		<listEntry value="6">@Strings.ComplicationFloorsClimbed</listEntry>
     		<listEntry value="7">@Strings.ComplicationBattery</listEntry>
+    		<listEntry value="8">@Strings.ComplicationSteps</listEntry>
     	</settingConfig>
     </setting>
     
@@ -77,6 +86,7 @@
     		<listEntry value="5">@Strings.ComplicationNotificationCount</listEntry>
     		<listEntry value="6">@Strings.ComplicationFloorsClimbed</listEntry>
     		<listEntry value="7">@Strings.ComplicationBattery</listEntry>
+    		<listEntry value="8">@Strings.ComplicationSteps</listEntry>
     	</settingConfig>
     </setting>
     
