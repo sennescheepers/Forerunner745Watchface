@@ -2,6 +2,8 @@
 
 ## Description
 
+***If you want to support my work, you can make a small donation [here](https://www.paypal.me/sennescheepers)***
+
 A replica of the default Garmin Forerunner 745 wathface.
 
 **Features:**

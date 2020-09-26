@@ -37,6 +37,11 @@ module StatusIcons {
 	var doNotDisturb;
 	var notificationCount;
 	
+	var showConnected;
+	var showNotifications;
+	var showAlarm;
+	var showDoNotDisturb;
+	
 	var numberToDisplay;
 	var icons;
 
@@ -59,19 +64,19 @@ module StatusIcons {
 		smallFontHeight = dc.getFontHeight(Graphics.FONT_SMALL);
 		iconHeight = dc.getFontHeight(Fonts.iconFont);
 	
-		if (isConnected) {
+		if (isConnected && showConnected) {
 			icons[numberToDisplay] = phoneIcon;
 			numberToDisplay++;
 		}
-		if (alarmEnabled) {
+		if (alarmEnabled && showAlarm) {
 			icons[numberToDisplay] = alarmIcon;
 			numberToDisplay++;
 		}
-		if (doNotDisturb) {
+		if (doNotDisturb && showDoNotDisturb) {
 			icons[numberToDisplay] = doNotDisturbIcon;
 			numberToDisplay++;
 		}
-		if (notificationCount > 0) {
+		if (notificationCount > 0 && showNotifications) {
 			icons[numberToDisplay] = notificationIcon;
 			numberToDisplay++;
 		}
@@ -153,6 +158,11 @@ module StatusIcons {
 	
 		left = Application.getApp().getProperty("LeftComplication") == 4;
 		right = Application.getApp().getProperty("RightComplication") == 4;
+		
+		showConnected = Application.getApp().getProperty("ShowPhoneConnected");
+		showNotifications = Application.getApp().getProperty("ShowNotifications");
+		showAlarm = Application.getApp().getProperty("ShowAlarm");
+		showDoNotDisturb = Application.getApp().getProperty("ShowDoNotDisturb");
 	
 	}
 

@@ -18,4 +18,9 @@
 	
 	<property id="AccentColorComplication" type="boolean">true</property> <!-- true -->
 	
+	<property id="ShowPhoneConnected" type="boolean">true</property> <!-- true -->
+	<property id="ShowNotifications" type="boolean">true</property> <!-- true -->
+	<property id="ShowAlarm" type="boolean">true</property> <!-- true -->
+	<property id="ShowDoNotDisturb" type="boolean">true</property> <!-- true -->
+	
 </properties>

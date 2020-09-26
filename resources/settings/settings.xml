@@ -95,5 +95,21 @@
     <setting propertyKey="@Properties.AccentColorComplication" title="@Strings.AccentColorComplicationTitle">
     	<settingConfig type="boolean"/>
     </setting>
+    
+    <setting propertyKey="@Properties.ShowPhoneConnected" title="@Strings.ShowPhoneConnectedTitle">
+    	<settingConfig type="boolean"/>
+    </setting>
+
+	<setting propertyKey="@Properties.ShowNotifications" title="@Strings.ShowNotificationsTitle">
+    	<settingConfig type="boolean"/>
+    </setting>
+
+	<setting propertyKey="@Properties.ShowAlarm" title="@Strings.ShowAlarmTitle">
+    	<settingConfig type="boolean"/>
+    </setting>
+    
+    <setting propertyKey="@Properties.ShowDoNotDisturb" title="@Strings.ShowDoNotDisturbTitle">
+    	<settingConfig type="boolean"/>
+    </setting>
 
 </settings>

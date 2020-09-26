@@ -44,6 +44,9 @@
     
     <string id="AccentColorComplicationTitle">Use accent color in complications</string>
     
-    <string id="SemiRoundDisplayTitle">Status icons in upper right corner (semi-round screens)</string>
+    <string id="ShowPhoneConnectedTitle">Show phone connected status icon</string>
+    <string id="ShowNotificationsTitle">Show notifications status icon</string>
+    <string id="ShowAlarmTitle">Show alarm status icon</string>
+    <string id="ShowDoNotDisturbTitle">Show do not disturb status icon</string>
 
 </strings>
