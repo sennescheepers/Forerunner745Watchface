@@ -314,8 +314,8 @@
 <entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\HRText.mc" id="37" lineNum="40" pc="268447400" symbol="drawHR"/>
 <entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\HRText.mc" id="37" lineNum="43" pc="268447434" symbol="drawHR"/>
 <entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\HRText.mc" id="37" lineNum="44" pc="268447470" symbol="drawHR"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\HRText.mc" id="37" lineNum="13" pc="268454546" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\HRText.mc" id="37" lineNum="14" pc="268454589" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\HRText.mc" id="37" lineNum="13" pc="268454551" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\HRText.mc" id="37" lineNum="14" pc="268454594" symbol="&lt;init&gt;"/>
 <entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsText.mc" id="39" lineNum="22" pc="268447521" symbol="drawText"/>
 <entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsText.mc" id="39" lineNum="25" pc="268447533" symbol="drawText"/>
 <entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\StepsText.mc" id="39" lineNum="26" pc="268447550" symbol="drawText"/>
@@ -396,12 +396,12 @@
 <entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\FloorsText.mc" id="51" lineNum="51" pc="268450831" symbol="setSettings"/>
 <entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\FloorsText.mc" id="51" lineNum="53" pc="268450843" symbol="setSettings"/>
 <entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\FloorsText.mc" id="51" lineNum="54" pc="268450880" symbol="setSettings"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Fonts.mc" id="52" lineNum="8" pc="268454635" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Fonts.mc" id="52" lineNum="9" pc="268454678" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Fonts.mc" id="52" lineNum="10" pc="268454721" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Fonts.mc" id="52" lineNum="11" pc="268454764" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Fonts.mc" id="52" lineNum="12" pc="268454807" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Fonts.mc" id="52" lineNum="13" pc="268454850" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Fonts.mc" id="52" lineNum="8" pc="268454640" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Fonts.mc" id="52" lineNum="9" pc="268454683" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Fonts.mc" id="52" lineNum="10" pc="268454726" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Fonts.mc" id="52" lineNum="11" pc="268454769" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Fonts.mc" id="52" lineNum="12" pc="268454812" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Fonts.mc" id="52" lineNum="13" pc="268454855" symbol="&lt;init&gt;"/>
 <entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\FloorsBar.mc" id="54" lineNum="17" pc="268450944" symbol="drawBar"/>
 <entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\FloorsBar.mc" id="54" lineNum="20" pc="268450956" symbol="drawBar"/>
 <entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\FloorsBar.mc" id="54" lineNum="21" pc="268450981" symbol="drawBar"/>
@@ -506,17 +506,17 @@
 <entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="64" lineNum="158" pc="268453899" symbol="setSettings"/>
 <entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="64" lineNum="159" pc="268453936" symbol="setSettings"/>
 <entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="64" lineNum="160" pc="268453973" symbol="setSettings"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="64" lineNum="13" pc="268454919" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="64" lineNum="14" pc="268454948" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="64" lineNum="15" pc="268454977" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="64" lineNum="13" pc="268454924" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="64" lineNum="14" pc="268454953" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\11900454\\eclipse-workspace\\Forerunner745WatchFace\\source\\Forerunner745WatchFaceView.mc" id="64" lineNum="15" pc="268454982" symbol="&lt;init&gt;"/>
 <entry filename="Rez" id="70" lineNum="34" pc="268454011" symbol="WatchFace"/>
-<entry filename="Rez" id="70" lineNum="36" pc="268454023" symbol="WatchFace"/>
-<entry filename="Rez" id="70" lineNum="37" pc="268454047" symbol="WatchFace"/>
-<entry filename="Rez" id="70" lineNum="38" pc="268454114" symbol="WatchFace"/>
-<entry filename="Rez" id="70" lineNum="39" pc="268454181" symbol="WatchFace"/>
-<entry filename="Rez" id="70" lineNum="40" pc="268454248" symbol="WatchFace"/>
-<entry filename="Rez" id="70" lineNum="41" pc="268454315" symbol="WatchFace"/>
-<entry filename="Rez" id="70" lineNum="43" pc="268454382" symbol="WatchFace"/>
+<entry filename="Rez" id="70" lineNum="37" pc="268454023" symbol="WatchFace"/>
+<entry filename="Rez" id="70" lineNum="38" pc="268454047" symbol="WatchFace"/>
+<entry filename="Rez" id="70" lineNum="39" pc="268454114" symbol="WatchFace"/>
+<entry filename="Rez" id="70" lineNum="40" pc="268454181" symbol="WatchFace"/>
+<entry filename="Rez" id="70" lineNum="41" pc="268454248" symbol="WatchFace"/>
+<entry filename="Rez" id="70" lineNum="42" pc="268454315" symbol="WatchFace"/>
+<entry filename="Rez" id="70" lineNum="44" pc="268454382" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
 <entry field="true" id="149" symbol="textWidthMinutes"/>
@@ -887,10 +887,10 @@
 <entry arg="true" endPc="268452316" name="dc" stackId="1" startPc="268450944"/>
 <entry arg="true" endPc="268452677" name="dc" stackId="1" startPc="268452635"/>
 <entry arg="true" endPc="268453832" name="dc" stackId="1" startPc="268452682"/>
+<entry endPc="268454449" name="rez_cmp_local_custom_drawable_81365005722067233914" stackId="2" startPc="268454023"/>
 <entry endPc="268454449" name="rez_cmp_local_text_upperRightComplication" stackId="7" startPc="268454023"/>
 <entry endPc="268454449" name="rez_cmp_local_text_secondsLabel" stackId="5" startPc="268454023"/>
 <entry endPc="268454449" name="rez_cmp_local_text_dateLabel" stackId="6" startPc="268454023"/>
-<entry endPc="268454449" name="rez_cmp_local_custom_drawable_13538617208116309439" stackId="2" startPc="268454023"/>
 <entry endPc="268454449" name="rez_cmp_local_text_minutesLabel" stackId="4" startPc="268454023"/>
 <entry endPc="268454449" name="rez_cmp_local_text_hourLabel" stackId="3" startPc="268454023"/>
 <entry arg="true" endPc="268454450" name="dc" stackId="1" startPc="268454011"/>

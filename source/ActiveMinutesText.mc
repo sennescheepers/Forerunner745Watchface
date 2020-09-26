@@ -24,7 +24,7 @@ module ActiveMinutesText {
 		// Get the steps
 		var info = ActivityMonitor.getInfo();
 		var activeMinutes = info.activeMinutesWeek.total.toNumber();
-		var activeMinutesString = Lang.format("$1$", [activeMinutes]);
+		var activeMinutesString = Lang.format("$1$min.", [activeMinutes]);
        	
        	// Calculate position
        	var bigFontHeight = dc.getFontHeight(Fonts.bigFilledFont);

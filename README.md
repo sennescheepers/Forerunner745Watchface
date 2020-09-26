@@ -2,9 +2,9 @@
 
 ## Description
 
-***If you want to support my work, you can make a small donation [here](https://www.paypal.me/sennescheepers)***
+**If you want to support my work, you can make a small donation [here](https://www.paypal.me/sennescheepers)**
 
-A replica of the default Garmin Forerunner 745 wathface.
+A replica of the default Garmin Forerunner 745 wathface. [link](https://apps.garmin.com/en-US/apps/6eda8a23-2dc6-41f1-b3f8-45622f2d4570)
 
 **Features:**
 * Time in the middle, font and color can be set per digit, seconds can be toggled on and off.
@@ -31,6 +31,11 @@ A replica of the default Garmin Forerunner 745 wathface.
 This is my first Connect IQ watch face, please be kind and don't hesitate to leave feedback or suggestions!
 
 ## What's new
+**1.2.5:**
+* Control which status icons are displayed
+* Added small steps data field option
+* Added small active minutes data field option
+
 **1.2.4:**
 * Battery optimization
 
@@ -63,10 +68,7 @@ This is my first Connect IQ watch face, please be kind and don't hesitate to lea
 * Initial deploy
 
 ## What's coming
-* Move bar
 * Battery status icon
-* Manually selecting which status icons to show or hide
-* New datafields
 
 [picture1]: ./pictures/picture1.png "Watch face example 1"
 [picture2]: ./pictures/picture2.png "Watch face example 2"
