@@ -41,6 +41,7 @@ class Forerunner745WatchFaceApp extends Application.AppBase {
     	StepsBar.setSettings();
     	MoveBar.setSettings();
     	StepsText.setSettings();
+    	ActiveMinutesText.setSettings();
     	
         WatchUi.requestUpdate();
     }

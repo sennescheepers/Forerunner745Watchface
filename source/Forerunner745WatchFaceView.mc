@@ -36,6 +36,7 @@ class Forerunner745WatchFaceView extends WatchUi.WatchFace {
     	StepsBar.setSettings();
     	MoveBar.setSettings();
     	StepsText.setSettings();
+    	ActiveMinutesText.setSettings();
     	
     }
 
@@ -80,7 +81,7 @@ class Forerunner745WatchFaceView extends WatchUi.WatchFace {
         	MoveBar.drawBar(dc);
         }*/
         
-        // Display left complicatoin
+        // Display left and right complications
         // 0: Empty
         // 1: Date
         // 2: HR
@@ -90,6 +91,7 @@ class Forerunner745WatchFaceView extends WatchUi.WatchFace {
         // 6: Floors climbed
         // 7: Battery
         // 8: Steps
+        // 9: Active minutes
         if (leftComplication == 1) {
         	DateText.drawDate(dc, 0);
         } else if (leftComplication == 2 && hasHeartRateIterator) {
@@ -106,18 +108,11 @@ class Forerunner745WatchFaceView extends WatchUi.WatchFace {
         	BatteryText.drawBattery(dc, 0);
         } else if (leftComplication == 8) {
         	StepsText.drawText(dc, 0);
+        } else if (leftComplication == 9 && hasActiveMinutesWeek) {
+        	ActiveMinutesText.drawText(dc, 0);
         }
         
-        // Display right complicatoin
-        // 0: Empty
-        // 1: Date
-        // 2: HR
-        // 3: Todays distance
- 		// 4: Status icons
- 		// 5: Notification count
- 		// 6: Floors climbed
- 		// 7: Battery
- 		// 8: Steps
+    	
         if (rightComplication == 1) {
         	DateText.drawDate(dc, 1);
         } else if (rightComplication == 2 && hasHeartRateIterator) {
@@ -132,6 +127,8 @@ class Forerunner745WatchFaceView extends WatchUi.WatchFace {
         	BatteryText.drawBattery(dc, 1);
         } else if (rightComplication == 8) {
         	StepsText.drawText(dc, 1);
+        } else if (rightComplication == 9 && hasActiveMinutesWeek) {
+        	ActiveMinutesText.drawText(dc, 1);
         }
         
         // Display status icons

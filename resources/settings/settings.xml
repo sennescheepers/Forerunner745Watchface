@@ -73,6 +73,7 @@
     		<listEntry value="6">@Strings.ComplicationFloorsClimbed</listEntry>
     		<listEntry value="7">@Strings.ComplicationBattery</listEntry>
     		<listEntry value="8">@Strings.ComplicationSteps</listEntry>
+    		<listEntry value="9">@Strings.ComplicationActiveMinutes</listEntry>
     	</settingConfig>
     </setting>
     
@@ -87,6 +88,7 @@
     		<listEntry value="6">@Strings.ComplicationFloorsClimbed</listEntry>
     		<listEntry value="7">@Strings.ComplicationBattery</listEntry>
     		<listEntry value="8">@Strings.ComplicationSteps</listEntry>
+    		<listEntry value="9">@Strings.ComplicationActiveMinutes</listEntry>
     	</settingConfig>
     </setting>
     

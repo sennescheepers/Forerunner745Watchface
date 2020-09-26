@@ -40,6 +40,7 @@
     <string id="ComplicationFloorsClimbed">Floors climbed</string>
     <string id="ComplicationBattery">Battery</string>
     <string id="ComplicationSteps">Steps</string>
+    <string id="ComplicationActiveMinutes">This weeks active minutes</string>
     
     <string id="AccentColorComplicationTitle">Use accent color in complications</string>
     
