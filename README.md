@@ -21,6 +21,8 @@ A replica of the default Garmin Forerunner 745 wathface. [link](https://apps.gar
     MARQ Athlete, MARQ Aviator, MARQ Captain, MARQ Commander, MARQ Driver, MARQ expedition, MARQ Golfer, Quatix 6, Quatix 6X, Quatix 6X Solar,
     Quatix 6X Dual Power, Vivoactive 3, Vivoactive 3 Music, Vivoactive 4, Vivoactive 4S
 ```
+*To keep the size of the watchface small and support as much devices as possible, only the standard english alphabet is being used*
+
 **Examples:**
 
 ![alt text][picture1]
@@ -69,6 +71,9 @@ This is my first Connect IQ watch face, please be kind and don't hesitate to lea
 
 ## What's coming
 * Battery status icon
+* Anti-Aliasing on the fonts
+* Extra accent colours
+* HR as a small datafield
 
 [picture1]: ./pictures/picture1.png "Watch face example 1"
 [picture2]: ./pictures/picture2.png "Watch face example 2"
