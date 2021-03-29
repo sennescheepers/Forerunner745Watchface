@@ -13,6 +13,11 @@
             <listEntry value="0x00FF00">@Strings.ColorGreen</listEntry>
             <listEntry value="0xFF0000">@Strings.ColorRed</listEntry>
             <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
+            <listEntry value="#0452cf">@Strings.ColorDarkBlue</listEntry>
+            <listEntry value="#40c9ff">@Strings.ColorLightBlue</listEntry>
+            <listEntry value="#f2f07c">@Strings.ColorYellow</listEntry>
+            <listEntry value="#e029e3">@Strings.ColorPink</listEntry>
+            <listEntry value="#7329e3">@Strings.ColorPurple</listEntry>
         </settingConfig>
     </setting>
     
@@ -21,6 +26,11 @@
             <listEntry value="0x00FF00">@Strings.ColorGreen</listEntry>
             <listEntry value="0xFF0000">@Strings.ColorRed</listEntry>
             <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
+            <listEntry value="#0452cf">@Strings.ColorDarkBlue</listEntry>
+            <listEntry value="#40c9ff">@Strings.ColorLightBlue</listEntry>
+            <listEntry value="#f2f07c">@Strings.ColorYellow</listEntry>
+            <listEntry value="#e029e3">@Strings.ColorPink</listEntry>
+            <listEntry value="#7329e3">@Strings.ColorPurple</listEntry>
         </settingConfig>
     </setting>
     
@@ -29,6 +39,11 @@
             <listEntry value="0x00FF00">@Strings.ColorGreen</listEntry>
             <listEntry value="0xFF0000">@Strings.ColorRed</listEntry>
             <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
+            <listEntry value="#0452cf">@Strings.ColorDarkBlue</listEntry>
+            <listEntry value="#40c9ff">@Strings.ColorLightBlue</listEntry>
+            <listEntry value="#f2f07c">@Strings.ColorYellow</listEntry>
+            <listEntry value="#e029e3">@Strings.ColorPink</listEntry>
+            <listEntry value="#7329e3">@Strings.ColorPurple</listEntry>
         </settingConfig>
     </setting>
 
@@ -49,6 +64,11 @@
             <listEntry value="0x00FF00">@Strings.ColorGreen</listEntry>
             <listEntry value="0xFF0000">@Strings.ColorRed</listEntry>
             <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
+            <listEntry value="#0452cf">@Strings.ColorDarkBlue</listEntry>
+            <listEntry value="#40c9ff">@Strings.ColorLightBlue</listEntry>
+            <listEntry value="#f2f07c">@Strings.ColorYellow</listEntry>
+            <listEntry value="#e029e3">@Strings.ColorPink</listEntry>
+            <listEntry value="#7329e3">@Strings.ColorPurple</listEntry>
         </settingConfig>
     </setting>
     

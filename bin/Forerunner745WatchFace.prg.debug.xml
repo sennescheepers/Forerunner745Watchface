@@ -519,46 +519,48 @@
         <entry filename="Rez" id="70" lineNum="44" pc="268454382" symbol="WatchFace"/>
     </pcToLineNum>
     <symbolTable>
-        <entry field="true" id="149" symbol="textWidthMinutes"/>
-        <entry field="true" id="167" symbol="complicationFont"/>
+        <entry field="true" id="154" symbol="textWidthMinutes"/>
+        <entry field="true" id="172" symbol="complicationFont"/>
         <entry id="8388639" module="true" symbol="Graphics"/>
         <entry field="true" id="71" symbol="Use12HourTitle"/>
-        <entry field="true" id="165" symbol="smallFilledFont"/>
+        <entry field="true" id="170" symbol="smallFilledFont"/>
         <entry id="33" module="true" symbol="TimeText"/>
-        <entry field="true" id="146" symbol="lowPower"/>
+        <entry field="true" id="151" symbol="lowPower"/>
         <entry field="true" id="68" symbol="ComplicationFloorsClimbed"/>
-        <entry field="true" id="107" symbol="useAccentColor"/>
+        <entry field="true" id="112" symbol="useAccentColor"/>
         <entry field="true" id="56" symbol="SevenNotificationIcon"/>
-        <entry field="true" id="147" symbol="use12Hour"/>
+        <entry field="true" id="152" symbol="use12Hour"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
-        <entry id="139" method="true" symbol="drawDate"/>
+        <entry id="144" method="true" symbol="drawDate"/>
         <entry field="true" id="66" symbol="complication_font"/>
-        <entry field="true" id="129" symbol="alarmEnabled"/>
+        <entry field="true" id="108" symbol="ColorPurple"/>
+        <entry field="true" id="134" symbol="alarmEnabled"/>
         <entry field="true" id="55" symbol="SixNotificationIcon"/>
-        <entry field="true" id="86" symbol="LeftComplicationTitle"/>
+        <entry field="true" id="88" symbol="LeftComplicationTitle"/>
         <entry id="37" module="true" symbol="BatteryText"/>
         <entry id="5" module="true" symbol="globals/Rez/Menus"/>
-        <entry field="true" id="82" symbol="SecondsColorTitle"/>
-        <entry field="true" id="158" symbol="secondsColor"/>
-        <entry field="true" id="105" symbol="ComplicationFloorsClimbedBar"/>
+        <entry field="true" id="83" symbol="SecondsColorTitle"/>
+        <entry field="true" id="163" symbol="secondsColor"/>
+        <entry field="true" id="109" symbol="ComplicationFloorsClimbedBar"/>
         <entry id="38" module="true" symbol="HRText"/>
         <entry id="8391294" method="true" symbol="getY"/>
         <entry field="true" id="72" symbol="ComplicationHeartRate"/>
-        <entry field="true" id="89" symbol="ColorGreen"/>
+        <entry field="true" id="91" symbol="ColorGreen"/>
         <entry id="8389683" method="true" symbol="onSettingsChanged"/>
-        <entry field="true" id="154" symbol="minutesFont"/>
+        <entry field="true" id="77" symbol="ColorYellow"/>
+        <entry field="true" id="159" symbol="minutesFont"/>
         <entry field="true" id="8389661" symbol="maxWidth"/>
-        <entry field="true" id="176" symbol="useImperial"/>
-        <entry field="true" id="150" symbol="textWidthSeconds"/>
-        <entry field="true" id="80" symbol="ColorRed"/>
-        <entry field="true" id="94" symbol="ComplicationStatusIcons"/>
+        <entry field="true" id="181" symbol="useImperial"/>
+        <entry field="true" id="155" symbol="textWidthSeconds"/>
+        <entry field="true" id="81" symbol="ColorRed"/>
+        <entry field="true" id="96" symbol="ComplicationStatusIcons"/>
         <entry field="true" id="60" symbol="DoNotDisturbIcon"/>
         <entry id="19" module="true" symbol="globals/TimeText"/>
         <entry field="true" id="8389795" symbol="doNotDisturb"/>
-        <entry field="true" id="152" symbol="textHeightSmall"/>
+        <entry field="true" id="157" symbol="textHeightSmall"/>
         <entry id="8388924" module="true" symbol="Gregorian"/>
-        <entry field="true" id="123" symbol="iconHeight"/>
-        <entry field="true" id="98" symbol="ShowDoNotDisturbTitle"/>
+        <entry field="true" id="128" symbol="iconHeight"/>
+        <entry field="true" id="101" symbol="ShowDoNotDisturbTitle"/>
         <entry id="29" module="true" symbol="DateText"/>
         <entry id="8388647" module="true" symbol="UserProfile"/>
         <entry field="true" id="65" symbol="accent_font"/>
@@ -566,176 +568,179 @@
         <entry field="true" id="53" symbol="FourNotificationIcon"/>
         <entry id="40" module="true" symbol="StatusIcons"/>
         <entry field="true" id="48" symbol="PhoneIcon"/>
-        <entry field="true" id="170" symbol="hasHeartRateIterator"/>
+        <entry field="true" id="175" symbol="hasHeartRateIterator"/>
         <entry field="true" id="63" symbol="big_outline_font"/>
         <entry id="25" module="true" symbol="CaloriesBar"/>
         <entry field="true" id="75" symbol="ComplicationDistance"/>
-        <entry field="true" id="174" symbol="leftComplication"/>
-        <entry field="true" id="130" symbol="showConnected"/>
-        <entry id="162" method="true" symbol="drawTime"/>
-        <entry field="true" id="78" symbol="AppName"/>
+        <entry field="true" id="179" symbol="leftComplication"/>
+        <entry field="true" id="135" symbol="showConnected"/>
+        <entry id="167" method="true" symbol="drawTime"/>
+        <entry field="true" id="79" symbol="AppName"/>
         <entry id="2" module="true" symbol="globals/FloorsBar"/>
         <entry id="8388633" module="true" symbol="ActivityMonitor"/>
-        <entry field="true" id="99" symbol="ComplicationBattery"/>
+        <entry field="true" id="102" symbol="ComplicationBattery"/>
         <entry field="true" id="62" symbol="big_filled_font"/>
         <entry id="9" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
-        <entry id="145" method="true" symbol="drawHR"/>
-        <entry field="true" id="164" symbol="bigOutlineFont"/>
+        <entry id="150" method="true" symbol="drawHR"/>
+        <entry field="true" id="169" symbol="bigOutlineFont"/>
         <entry id="20" module="true" symbol="globals/Fonts"/>
-        <entry field="true" id="121" symbol="bigFontHeight"/>
+        <entry field="true" id="126" symbol="bigFontHeight"/>
         <entry id="44" method="true" symbol="drawBar"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
         <entry id="39" module="true" symbol="DistanceText"/>
-        <entry field="true" id="140" symbol="floorsString"/>
-        <entry field="true" id="97" symbol="ComplicationActiveMinutesBar"/>
+        <entry field="true" id="145" symbol="floorsString"/>
+        <entry field="true" id="100" symbol="ComplicationActiveMinutesBar"/>
         <entry id="3" module="true" symbol="globals/Rez"/>
-        <entry field="true" id="148" symbol="textWidthHour"/>
+        <entry field="true" id="153" symbol="textWidthHour"/>
         <entry id="11" module="true" symbol="globals/IntensityMinutesBar"/>
         <entry field="true" id="74" symbol="MinutesColorTitle"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
         <entry id="32" module="true" symbol="FloorsText"/>
-        <entry field="true" id="103" symbol="ShowNotificationsTitle"/>
+        <entry field="true" id="106" symbol="ShowNotificationsTitle"/>
         <entry id="36" object="true" symbol="Forerunner745WatchFaceView"/>
-        <entry field="true" id="134" symbol="numberToDisplay"/>
+        <entry field="true" id="139" symbol="numberToDisplay"/>
         <entry field="true" id="59" symbol="MoreNotificationIcon"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry field="true" id="8389348" symbol="font"/>
         <entry id="26" module="true" symbol="MoveBar"/>
-        <entry field="true" id="77" symbol="ComplicationCaloriesBurnedBar"/>
+        <entry field="true" id="78" symbol="ComplicationCaloriesBurnedBar"/>
         <entry id="47" module="true" symbol="Menus"/>
-        <entry field="true" id="96" symbol="ColorDarkGray"/>
+        <entry field="true" id="98" symbol="ColorDarkGray"/>
         <entry field="true" id="58" symbol="NineNotificationIcon"/>
         <entry id="7" module="true" symbol="globals/Rez/Layouts"/>
         <entry field="true" id="8389869" symbol="activeMinutesWeek"/>
-        <entry field="true" id="153" symbol="hourFont"/>
-        <entry id="115" method="true" symbol="drawBattery"/>
-        <entry field="true" id="144" symbol="hrLocY"/>
-        <entry field="true" id="143" symbol="hrLocX"/>
-        <entry field="true" id="133" symbol="showDoNotDisturb"/>
-        <entry field="true" id="151" symbol="textHeightBig"/>
+        <entry field="true" id="158" symbol="hourFont"/>
+        <entry id="120" method="true" symbol="drawBattery"/>
+        <entry field="true" id="149" symbol="hrLocY"/>
+        <entry field="true" id="148" symbol="hrLocX"/>
+        <entry field="true" id="138" symbol="showDoNotDisturb"/>
+        <entry field="true" id="156" symbol="textHeightBig"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
         <entry field="true" id="70" symbol="AccentColorComplicationTitle"/>
-        <entry field="true" id="106" symbol="DisplaySecondsTitle"/>
+        <entry field="true" id="111" symbol="DisplaySecondsTitle"/>
         <entry id="8389376" method="true" symbol="onEnterSleep"/>
         <entry field="true" id="8389063" symbol="identifier"/>
-        <entry field="true" id="173" symbol="bigComplication"/>
-        <entry field="true" id="166" symbol="accentFont"/>
+        <entry field="true" id="178" symbol="bigComplication"/>
+        <entry field="true" id="171" symbol="accentFont"/>
         <entry field="true" id="43" symbol="accentColor"/>
         <entry field="true" id="57" symbol="EightNotificationIcon"/>
-        <entry field="true" id="104" symbol="ComplicationEmpty"/>
-        <entry field="true" id="126" symbol="notificationIcon"/>
-        <entry field="true" id="102" symbol="ComplicationActiveMinutes"/>
-        <entry field="true" id="87" symbol="ColorWhite"/>
+        <entry field="true" id="107" symbol="ComplicationEmpty"/>
+        <entry field="true" id="131" symbol="notificationIcon"/>
+        <entry field="true" id="105" symbol="ComplicationActiveMinutes"/>
+        <entry field="true" id="89" symbol="ColorWhite"/>
+        <entry field="true" id="99" symbol="ColorDarkBlue"/>
         <entry field="true" id="52" symbol="ThreeNotificationIcon"/>
         <entry id="8" module="true" symbol="globals/Rez/JsonData"/>
-        <entry field="true" id="100" symbol="ColorBlack"/>
-        <entry field="true" id="125" symbol="alarmIcon"/>
-        <entry field="true" id="172" symbol="hasActiveMinutesWeek"/>
-        <entry field="true" id="127" symbol="doNotDisturbIcon"/>
+        <entry field="true" id="103" symbol="ColorBlack"/>
+        <entry field="true" id="130" symbol="alarmIcon"/>
+        <entry field="true" id="177" symbol="hasActiveMinutesWeek"/>
+        <entry field="true" id="132" symbol="doNotDisturbIcon"/>
         <entry id="4" module="true" symbol="globals/Rez/Drawables"/>
-        <entry field="true" id="83" symbol="ComplicationSteps"/>
+        <entry field="true" id="84" symbol="ComplicationSteps"/>
         <entry id="15" module="true" symbol="globals/DateText"/>
-        <entry field="true" id="113" symbol="LocY"/>
-        <entry field="true" id="112" symbol="LocX"/>
-        <entry field="true" id="135" symbol="icons"/>
+        <entry field="true" id="118" symbol="LocY"/>
+        <entry field="true" id="117" symbol="LocX"/>
+        <entry field="true" id="140" symbol="icons"/>
         <entry id="30" module="true" symbol="FloorsBar"/>
-        <entry field="true" id="131" symbol="showNotifications"/>
+        <entry field="true" id="136" symbol="showNotifications"/>
         <entry id="24" module="true" symbol="globals/DistanceText"/>
         <entry field="true" id="8391244" method="true" symbol="isConnected"/>
-        <entry field="true" id="122" symbol="smallFontHeight"/>
+        <entry field="true" id="127" symbol="smallFontHeight"/>
         <entry id="10" module="true" symbol="globals/StepsText"/>
-        <entry field="true" id="142" symbol="bigFont"/>
+        <entry field="true" id="147" symbol="bigFont"/>
         <entry id="12" module="true" symbol="globals/BatteryText"/>
-        <entry field="true" id="109" symbol="iconWidth"/>
-        <entry field="true" id="120" symbol="_dc"/>
+        <entry field="true" id="114" symbol="iconWidth"/>
+        <entry field="true" id="125" symbol="_dc"/>
         <entry id="8389377" method="true" symbol="onExitSleep"/>
         <entry id="8388644" module="true" symbol="System"/>
         <entry id="16" module="true" symbol="globals/FloorsText"/>
         <entry id="8388645" module="true" symbol="Time"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
-        <entry field="true" id="175" symbol="rightComplication"/>
-        <entry field="true" id="168" symbol="iconFont"/>
+        <entry field="true" id="180" symbol="rightComplication"/>
+        <entry field="true" id="173" symbol="iconFont"/>
         <entry id="28" object="true" symbol="Forerunner745WatchFaceApp"/>
         <entry id="31" module="true" symbol="ActiveMinutesText"/>
-        <entry id="136" method="true" symbol="drawIcons"/>
-        <entry id="141" method="true" symbol="drawFloors"/>
+        <entry id="141" method="true" symbol="drawIcons"/>
+        <entry id="146" method="true" symbol="drawFloors"/>
         <entry id="27" module="true" symbol="StepsText"/>
-        <entry field="true" id="90" symbol="AccentColorTitle"/>
+        <entry field="true" id="92" symbol="AccentColorTitle"/>
         <entry id="8388640" module="true" symbol="Lang"/>
-        <entry field="true" id="85" symbol="ComplicationDate"/>
+        <entry field="true" id="86" symbol="ComplicationDate"/>
         <entry id="8390088" module="true" object="true" symbol="JsonData"/>
         <entry id="8389068" method="true" symbol="draw"/>
-        <entry field="true" id="119" symbol="right"/>
-        <entry field="true" id="155" symbol="secondsFont"/>
+        <entry field="true" id="124" symbol="right"/>
+        <entry field="true" id="160" symbol="secondsFont"/>
         <entry id="17" module="true" symbol="globals/HRText"/>
         <entry field="true" id="61" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
         <entry id="8389123" method="true" symbol="onShow"/>
-        <entry field="true" id="132" symbol="showAlarm"/>
-        <entry field="true" id="171" symbol="hasFloorsClimbed"/>
-        <entry field="true" id="114" symbol="batteryString"/>
+        <entry field="true" id="137" symbol="showAlarm"/>
+        <entry field="true" id="176" symbol="hasFloorsClimbed"/>
+        <entry field="true" id="119" symbol="batteryString"/>
         <entry field="true" id="64" symbol="small_filled_font"/>
-        <entry field="true" id="163" symbol="bigFilledFont"/>
+        <entry field="true" id="168" symbol="bigFilledFont"/>
         <entry field="true" id="54" symbol="FiveNotificationIcon"/>
-        <entry field="true" id="108" symbol="icon"/>
+        <entry field="true" id="113" symbol="icon"/>
         <entry id="45" method="true" symbol="setSettings"/>
-        <entry id="117" method="true" symbol="drawNotifications"/>
+        <entry id="122" method="true" symbol="drawNotifications"/>
         <entry id="8389350" module="true" symbol="globals"/>
         <entry id="41" module="true" symbol="IntensityMinutesBar"/>
-        <entry field="true" id="124" symbol="phoneIcon"/>
+        <entry field="true" id="129" symbol="phoneIcon"/>
         <entry id="14" module="true" symbol="globals/StatusIcons"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
         <entry id="8390146" module="true" object="true" symbol="Background"/>
-        <entry field="true" id="138" symbol="dateLocY"/>
-        <entry field="true" id="137" symbol="dateLocX"/>
+        <entry field="true" id="143" symbol="dateLocY"/>
+        <entry field="true" id="142" symbol="dateLocX"/>
         <entry field="true" id="8388960" symbol="heartRate"/>
         <entry id="35" module="true" symbol="StepsBar"/>
         <entry field="true" id="8389872" symbol="floorsClimbed"/>
-        <entry field="true" id="116" symbol="notificationsString"/>
+        <entry field="true" id="121" symbol="notificationsString"/>
         <entry id="8388702" method="true" symbol="initialize"/>
         <entry field="true" id="67" symbol="icon_font"/>
         <entry id="23" module="true" symbol="globals/CaloriesBar"/>
         <entry id="8389279" method="true" symbol="onStart"/>
         <entry field="true" id="42" symbol="fillWidth"/>
-        <entry field="true" id="169" symbol="view"/>
-        <entry field="true" id="79" symbol="HourColorTitle"/>
+        <entry field="true" id="174" symbol="view"/>
+        <entry field="true" id="80" symbol="HourColorTitle"/>
         <entry id="22" module="true" symbol="globals/ActiveMinutesText"/>
-        <entry field="true" id="101" symbol="BigComplicationTitle"/>
+        <entry field="true" id="104" symbol="BigComplicationTitle"/>
         <entry id="8388641" module="true" symbol="Math"/>
-        <entry field="true" id="95" symbol="ShowAlarmTitle"/>
-        <entry field="true" id="128" symbol="settings"/>
+        <entry field="true" id="97" symbol="ShowAlarmTitle"/>
+        <entry field="true" id="133" symbol="settings"/>
         <entry id="8389190" method="true" symbol="drawText"/>
-        <entry field="true" id="92" symbol="ColorLightGray"/>
+        <entry field="true" id="94" symbol="ColorLightGray"/>
         <entry field="true" id="51" symbol="TwoNotificationIcon"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389281" method="true" symbol="onStop"/>
-        <entry field="true" id="111" symbol="distanceLocY"/>
-        <entry field="true" id="110" symbol="distanceLocX"/>
-        <entry field="true" id="156" symbol="hourColor"/>
+        <entry field="true" id="116" symbol="distanceLocY"/>
+        <entry field="true" id="115" symbol="distanceLocX"/>
+        <entry field="true" id="87" symbol="ColorPink"/>
+        <entry field="true" id="161" symbol="hourColor"/>
         <entry field="true" id="50" symbol="OneNotificationIcon"/>
-        <entry field="true" id="157" symbol="minutesColor"/>
-        <entry field="true" id="161" symbol="displaySeconds"/>
+        <entry field="true" id="162" symbol="minutesColor"/>
+        <entry field="true" id="166" symbol="displaySeconds"/>
         <entry field="true" id="76" symbol="ImperialTitle"/>
-        <entry field="true" id="159" symbol="hourFilled"/>
+        <entry field="true" id="164" symbol="hourFilled"/>
         <entry id="21" module="true" symbol="globals/StepsBar"/>
-        <entry field="true" id="81" symbol="RightComplicationTitle"/>
+        <entry field="true" id="82" symbol="RightComplicationTitle"/>
         <entry id="13" module="true" symbol="globals/NotificationsText"/>
-        <entry field="true" id="160" symbol="minutesFilled"/>
-        <entry field="true" id="93" symbol="ComplicationNotificationCount"/>
+        <entry field="true" id="165" symbol="minutesFilled"/>
+        <entry field="true" id="95" symbol="ComplicationNotificationCount"/>
         <entry id="46" module="true" symbol="Layouts"/>
         <entry id="8389701" object="true" symbol="HeartRateIterator"/>
-        <entry field="true" id="88" symbol="HourFilledTitle"/>
-        <entry field="true" id="118" symbol="left"/>
+        <entry field="true" id="90" symbol="HourFilledTitle"/>
+        <entry field="true" id="110" symbol="ColorLightBlue"/>
+        <entry field="true" id="123" symbol="left"/>
         <entry field="true" id="69" symbol="ComplicationMoveBar"/>
-        <entry field="true" id="91" symbol="ComplicationStepsBar"/>
+        <entry field="true" id="93" symbol="ComplicationStepsBar"/>
         <entry id="6" module="true" symbol="globals/Rez/Fonts"/>
         <entry id="8389125" method="true" symbol="onHide"/>
         <entry field="true" id="73" symbol="MinutesFilledTitle"/>
         <entry id="34" module="true" symbol="NotificationsText"/>
-        <entry field="true" id="84" symbol="ShowPhoneConnectedTitle"/>
-        <entry id="177" method="true" symbol="drawDistance"/>
+        <entry field="true" id="85" symbol="ShowPhoneConnectedTitle"/>
+        <entry id="182" method="true" symbol="drawDistance"/>
         <entry id="8388635" module="true" symbol="Application"/>
         <entry field="true" id="8389584" symbol="notificationCount"/>
         <entry id="18" module="true" symbol="globals/MoveBar"/>
@@ -890,7 +895,7 @@
         <entry endPc="268454449" name="rez_cmp_local_text_upperRightComplication" stackId="7" startPc="268454023"/>
         <entry endPc="268454449" name="rez_cmp_local_text_secondsLabel" stackId="5" startPc="268454023"/>
         <entry endPc="268454449" name="rez_cmp_local_text_dateLabel" stackId="6" startPc="268454023"/>
-        <entry endPc="268454449" name="rez_cmp_local_custom_drawable_12929190695785881041" stackId="2" startPc="268454023"/>
+        <entry endPc="268454449" name="rez_cmp_local_custom_drawable_61599569213830661433" stackId="2" startPc="268454023"/>
         <entry endPc="268454449" name="rez_cmp_local_text_minutesLabel" stackId="4" startPc="268454023"/>
         <entry endPc="268454449" name="rez_cmp_local_text_hourLabel" stackId="3" startPc="268454023"/>
         <entry arg="true" endPc="268454450" name="dc" stackId="1" startPc="268454011"/>
@@ -906,24 +911,24 @@
         <dataEntry offset="817" parentId="Rez" symbolId="Layouts" type="module"/>
         <dataEntry offset="856" parentId="Rez" symbolId="JsonData" type="module"/>
         <dataEntry offset="887" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry offset="1230" parentId="globals" symbolId="Background" type="class"/>
-        <dataEntry offset="1285" parentId="globals" symbolId="StepsText" type="module"/>
-        <dataEntry offset="1380" parentId="globals" symbolId="IntensityMinutesBar" type="module"/>
-        <dataEntry offset="1451" parentId="globals" symbolId="BatteryText" type="module"/>
-        <dataEntry offset="1554" parentId="globals" symbolId="NotificationsText" type="module"/>
-        <dataEntry offset="1657" parentId="globals" symbolId="StatusIcons" type="module"/>
-        <dataEntry offset="1880" parentId="globals" symbolId="DateText" type="module"/>
-        <dataEntry offset="1935" parentId="globals" symbolId="FloorsText" type="module"/>
-        <dataEntry offset="2038" parentId="globals" symbolId="HRText" type="module"/>
-        <dataEntry offset="2117" parentId="globals" symbolId="MoveBar" type="module"/>
-        <dataEntry offset="2188" parentId="globals" symbolId="TimeText" type="module"/>
-        <dataEntry offset="2363" parentId="globals" symbolId="Fonts" type="module"/>
-        <dataEntry offset="2442" parentId="globals" symbolId="StepsBar" type="module"/>
-        <dataEntry offset="2513" parentId="globals" symbolId="Forerunner745WatchFaceApp" type="class"/>
-        <dataEntry offset="2600" parentId="globals" symbolId="ActiveMinutesText" type="module"/>
-        <dataEntry offset="2695" parentId="globals" symbolId="CaloriesBar" type="module"/>
-        <dataEntry offset="2766" parentId="globals" symbolId="Forerunner745WatchFaceView" type="class"/>
-        <dataEntry offset="2917" parentId="globals" symbolId="DistanceText" type="module"/>
+        <dataEntry offset="1270" parentId="globals" symbolId="Background" type="class"/>
+        <dataEntry offset="1325" parentId="globals" symbolId="StepsText" type="module"/>
+        <dataEntry offset="1420" parentId="globals" symbolId="IntensityMinutesBar" type="module"/>
+        <dataEntry offset="1491" parentId="globals" symbolId="BatteryText" type="module"/>
+        <dataEntry offset="1594" parentId="globals" symbolId="NotificationsText" type="module"/>
+        <dataEntry offset="1697" parentId="globals" symbolId="StatusIcons" type="module"/>
+        <dataEntry offset="1920" parentId="globals" symbolId="DateText" type="module"/>
+        <dataEntry offset="1975" parentId="globals" symbolId="FloorsText" type="module"/>
+        <dataEntry offset="2078" parentId="globals" symbolId="HRText" type="module"/>
+        <dataEntry offset="2157" parentId="globals" symbolId="MoveBar" type="module"/>
+        <dataEntry offset="2228" parentId="globals" symbolId="TimeText" type="module"/>
+        <dataEntry offset="2403" parentId="globals" symbolId="Fonts" type="module"/>
+        <dataEntry offset="2482" parentId="globals" symbolId="StepsBar" type="module"/>
+        <dataEntry offset="2553" parentId="globals" symbolId="Forerunner745WatchFaceApp" type="class"/>
+        <dataEntry offset="2640" parentId="globals" symbolId="ActiveMinutesText" type="module"/>
+        <dataEntry offset="2735" parentId="globals" symbolId="CaloriesBar" type="module"/>
+        <dataEntry offset="2806" parentId="globals" symbolId="Forerunner745WatchFaceView" type="class"/>
+        <dataEntry offset="2957" parentId="globals" symbolId="DistanceText" type="module"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" name="drawBar" parent="CaloriesBar">
