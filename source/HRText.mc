@@ -32,14 +32,14 @@ module HRText {
        	// Calculate position
        	var bigFontHeight = dc.getFontHeight(bigFont);
        	var hrTextWidth = dc.getTextWidthInPixels(hrString, font);
-       	if (position == 0) {// Left
+       	if (position == 0) { // Left
        		hrLocX = dc.getWidth() / 2 - hrTextWidth - 10;
        	} else { // Right
        		hrLocX = dc.getWidth() / 2 + 10;
        	}
        	hrLocY = (dc.getHeight() - bigFontHeight) / 2 - 5;
        	
-       	// Set date text
+       	// Set HR text
        	dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
        	dc.drawText(hrLocX, hrLocY, font, hrString, Graphics.TEXT_JUSTIFY_LEFT);
 	
